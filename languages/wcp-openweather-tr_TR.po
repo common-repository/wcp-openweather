@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: assets\n"
+"X-Poedit-SearchPath-1: classes\n"
+"X-Poedit-SearchPath-2: config\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: classes/RPw.class.php:223
+msgid "Add new WCP OpenWeather shortcode"
+msgstr "Yeni WCP OpenWeather kısa kod ekle"
+
+#: classes/RPw.class.php:558
+msgid ""
+"Google API key is required. Please, enter valid Google API Key in the \"API"
+"\" tab."
+msgstr ""
+
+#: classes/Settings.class.php:110
+msgid "Auto Detect"
+msgstr "Otomatik Algılama"
+
+#: classes/Settings.class.php:118
+msgid "Default"
+msgstr "Varsayılan"
+
+#: classes/persistence/Convertor.class.php:104
+#: classes/persistence/Convertor.class.php:120
+msgid "N"
+msgstr "K"
+
+#: classes/persistence/Convertor.class.php:105
+msgid "NNE"
+msgstr "KKD"
+
+#: classes/persistence/Convertor.class.php:106
+msgid "NE"
+msgstr "KD"
+
+#: classes/persistence/Convertor.class.php:107
+msgid "ENE"
+msgstr "DKD"
+
+#: classes/persistence/Convertor.class.php:108
+msgid "E"
+msgstr "D"
+
+#: classes/persistence/Convertor.class.php:109
+msgid "ESE"
+msgstr "DGD"
+
+#: classes/persistence/Convertor.class.php:110
+msgid "SE"
+msgstr "GD"
+
+#: classes/persistence/Convertor.class.php:111
+msgid "SSE"
+msgstr "GGD"
+
+#: classes/persistence/Convertor.class.php:112
+msgid "S"
+msgstr "G"
+
+#: classes/persistence/Convertor.class.php:113
+msgid "SSW"
+msgstr "GGB"
+
+#: classes/persistence/Convertor.class.php:114
+msgid "SW"
+msgstr "GB"
+
+#: classes/persistence/Convertor.class.php:115
+msgid "WSW"
+msgstr "BGB"
+
+#: classes/persistence/Convertor.class.php:116
+msgid "W"
+msgstr "B"
+
+#: classes/persistence/Convertor.class.php:117
+msgid "WNW"
+msgstr "BKB"
+
+#: classes/persistence/Convertor.class.php:118
+msgid "NW"
+msgstr "KB"
+
+#: classes/persistence/Convertor.class.php:119
+msgid "NNW"
+msgstr "KKB"
+
+#: classes/theme/ThemeEntity.class.php:148
+msgid "Theme Settings"
+msgstr "Tema Ayarları"
+
+#: classes/theme/ThemeEntity.class.php:162
+msgid "Select"
+msgstr "Seçiniz"
+
+#: classes/theme/ThemeEntity.class.php:163
+msgid "Upload Image"
+msgstr "Resim Yükle"
+
+#: classes/theme/ThemeSettings.class.php:114
+msgid "Settings reset to default values"
+msgstr "Ayarlarını varsayılan değerlere sıfırla"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:117
+msgid "Title"
+msgstr "Başlık"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:126
+#: config/admin-options-fields.php:69
+msgid "Template"
+msgstr "Tema"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:143
+#: config/admin-options-fields.php:77
+msgid "Show current weather"
+msgstr "Güncel hava durumu göster"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:150
+#: config/admin-options-fields.php:84
+msgid "Show 5 day forecast"
+msgstr "5 günlük hava tahmini göster"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:156
+#: config/admin-options-fields.php:27
+msgid "City Name"
+msgstr "Şehir İsmi"
+
+# You can find you city name on www.openweathermap.com.
+#: classes/widget/WeatherWidgetAbstract.class.php:158
+#: config/admin-options-fields.php:33
+msgid ""
+"You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+msgstr ""
+"Şehir isimlerini buradan bulabilirsiniz <a href=\"http://www.openweathermap."
+"com/\" title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+
+#: classes/widget/WeatherWidgetAbstract.class.php:174
+#: config/admin-options-fields.php:45
+msgid "Temperature"
+msgstr "Sıcaklık"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:193
+#: config/admin-options-fields.php:53
+msgid "Wind Speed"
+msgstr "Rüzgar Hızı"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:212
+#: config/admin-options-fields.php:61
+msgid "Pressure"
+msgstr "Basınç"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:228
+msgid "Enable user options"
+msgstr "Kullanıcı seçeneklerini etkinleştirmek"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:235
+msgid "Hide description of the weather conditions"
+msgstr "Hava koşullarının açıklama gizle"
+
+#: config/admin-menu.php:5 config/admin-menu.php:6
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: config/admin-menu.php:14 config/admin-menu.php:15
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: config/admin-options-fields.php:6
+msgid "Location"
+msgstr "Lokasyon"
+
+#: config/admin-options-fields.php:9
+msgid "Units"
+msgstr "Birimler"
+
+#: config/admin-options-fields.php:13
+msgid "Display Options"
+msgstr "Görüntüleme Seçenekleri"
+
+#: config/admin-options-fields.php:94
+msgid "General"
+msgstr "Genel"
+
+#: config/admin-options-fields.php:97
+msgid "User Options"
+msgstr "Kullanıcı Ayarları"
+
+#: config/admin-options-fields.php:100
+msgid "Other"
+msgstr "Diğer"
+
+#: config/admin-options-fields.php:106
+msgid "Language"
+msgstr "Dil"
+
+#: config/admin-options-fields.php:115
+msgid "Current Theme"
+msgstr "Güncel Tema"
+
+#: config/admin-options-fields.php:124
+msgid "Refresh Time"
+msgstr "Yenile Zamanı"
+
+#: config/admin-options-fields.php:131
+msgid "Hide Description of the Weather Conditions"
+msgstr "Hava koşullarının açıklamalarını gizle"
+
+#: config/admin-options-fields.php:138
+msgid "\"No Data\" Message"
+msgstr "\"Veri yok\" iletisi"
+
+#: config/admin-options-fields.php:146
+msgid "Enable \"Google Maps API\""
+msgstr "\"Google Maps API\" etkinleştirmek"
+
+#: config/admin-options-fields.php:153
+msgid "Enable User Options"
+msgstr "Kullanıcı seçeneklerini etkinleştirmek"
+
+#: config/admin-options-fields.php:160
+msgid "Expire User Options (days)"
+msgstr "Kullanıcı Seçenekleri Bitiş Süresi (gün)"
+
+#: config/admin-options-fields.php:175 templates/user/options/layout.php:12
+msgid "Options"
+msgstr "Seçenekler"
+
+#: config/admin-options-fields.php:180
+msgid "API key"
+msgstr "API Anahtarı"
+
+# How to get API key you can see here.
+#: config/admin-options-fields.php:185
+msgid ""
+"How to get API key you can see <a href=\"http://openweathermap.org/appid\" "
+"title=\"http://openweathermap.org/appid\" target=\"_blank\">here</a>."
+msgstr ""
+"API anahtarının nasıl alındığını görmek için <a href=\"http://openweathermap."
+"org/appid\" title=\"http://openweathermap.org/appid\" target=\"_blank"
+"\">tıklayın</a>."
+
+#: config/admin-options-fields.php:188
+msgid "Google API key"
+msgstr "Google API Anahtarı"
+
+#: config/admin-options-fields.php:193
+msgid ""
+"How to get Google API key you can see <a href=\"https://developers.google."
+"com/maps/documentation/javascript/get-api-key\" title=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Google API anahtarının nasıl alındığını görmek için <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/get-api-key\" title="
+"\"https://developers.google.com/maps/documentation/javascript/get-api-key\" "
+"target=\"_blank\">tıklayın</a>."
+
+#: config/admin-options-fieldset.php:4
+msgid "&deg;C"
+msgstr "&deg;C"
+
+#: config/admin-options-fieldset.php:5
+msgid "&deg;F"
+msgstr "&deg;F"
+
+#: config/admin-options-fieldset.php:8
+msgid "mph"
+msgstr "mph"
+
+#: config/admin-options-fieldset.php:9
+msgid "km/h"
+msgstr "km/h"
+
+#: config/admin-options-fieldset.php:10
+msgid "m/s"
+msgstr "m/s"
+
+#: config/admin-options-fieldset.php:11
+msgid "Knots"
+msgstr "Knots"
+
+#: config/admin-options-fieldset.php:14
+msgid "atm"
+msgstr "atm"
+
+#: config/admin-options-fieldset.php:15
+msgid "bar"
+msgstr "bar"
+
+#: config/admin-options-fieldset.php:16
+msgid "hPa"
+msgstr "﻿hPa"
+
+#: config/admin-options-fieldset.php:17
+msgid "kgf/cm²"
+msgstr "kgf/cm²"
+
+#: config/admin-options-fieldset.php:18
+msgid "kgf/m²"
+msgstr "kgf/m²"
+
+#: config/admin-options-fieldset.php:19
+msgid "kPa"
+msgstr "kPa"
+
+#: config/admin-options-fieldset.php:20
+msgid "mbar"
+msgstr "mbar"
+
+#: config/admin-options-fieldset.php:21
+msgid "mmHg"
+msgstr "mmHg"
+
+#: config/admin-options-fieldset.php:22
+msgid "inHg"
+msgstr "inHg"
+
+#: config/admin-options-fieldset.php:23
+msgid "Pa"
+msgstr "Pa"
+
+#: config/admin-options-fieldset.php:24
+msgid "psf"
+msgstr "psf"
+
+#: config/admin-options-fieldset.php:25
+msgid "psi"
+msgstr "psi"
+
+#: config/admin-options-fieldset.php:26
+msgid "torr"
+msgstr "torr"
+
+#: config/admin-options-fieldset.php:29
+msgid "Always"
+msgstr "Her zaman"
+
+#: config/admin-options-fieldset.php:30
+msgid "0.5h - Not Recommended"
+msgstr "0.5s - Önerilmez"
+
+#: config/admin-options-fieldset.php:31
+msgid "1h - Recommended"
+msgstr "1s - Tavsiye edilir"
+
+#: config/admin-options-fieldset.php:32
+msgid "2h"
+msgstr "2s"
+
+#: config/admin-options-fieldset.php:33
+msgid "3h"
+msgstr "3s"
+
+#: config/admin-options-fieldset.php:34
+msgid "6h"
+msgstr "6s"
+
+#: config/admin-options-fieldset.php:35
+msgid "9h"
+msgstr "9s"
+
+#: config/admin-options-fieldset.php:36
+msgid "12h"
+msgstr "12s"
+
+#: config/admin-options-fieldset.php:37
+msgid "24h"
+msgstr "24s"
+
+#: config/admin-options-fieldset.php:70
+msgid "mon"
+msgstr "ptesi"
+
+#: config/admin-options-fieldset.php:71
+msgid "tue"
+msgstr "salı"
+
+#: config/admin-options-fieldset.php:72
+msgid "wed"
+msgstr "çar"
+
+#: config/admin-options-fieldset.php:73
+msgid "thu"
+msgstr "perş"
+
+#: config/admin-options-fieldset.php:74
+msgid "fri"
+msgstr "cuma"
+
+#: config/admin-options-fieldset.php:75
+msgid "sat"
+msgstr "ctesi"
+
+#: config/admin-options-fieldset.php:76
+msgid "sun"
+msgstr "pazar"
+
+#: config/admin-options-fieldset.php:79
+msgid "jan"
+msgstr "ocak"
+
+#: config/admin-options-fieldset.php:80
+msgid "feb"
+msgstr "şubat"
+
+#: config/admin-options-fieldset.php:81
+msgid "mar"
+msgstr "mart"
+
+#: config/admin-options-fieldset.php:82
+msgid "apr"
+msgstr "nisan"
+
+#: config/admin-options-fieldset.php:83
+msgid "may"
+msgstr "mayıs"
+
+#: config/admin-options-fieldset.php:84
+msgid "jun"
+msgstr "haziran"
+
+#: config/admin-options-fieldset.php:85
+msgid "jul"
+msgstr "temmuz"
+
+#: config/admin-options-fieldset.php:86
+msgid "aug"
+msgstr "ağustos"
+
+#: config/admin-options-fieldset.php:87
+msgid "sep"
+msgstr "eylül"
+
+#: config/admin-options-fieldset.php:88
+msgid "oct"
+msgstr "ekim"
+
+#: config/admin-options-fieldset.php:89
+msgid "nov"
+msgstr "kasım"
+
+#: config/admin-options-fieldset.php:90
+msgid "dec"
+msgstr "aralık"
+
+#: config/admin-options-tabs.php:4
+msgid "Weather"
+msgstr "Hava Durumu"
+
+#: config/admin-options-tabs.php:7
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: config/admin-options-tabs.php:10
+msgid "API"
+msgstr "API"
+
+#: templates/admin/constructor/layout.php:12
+msgid "WCP OpenWeather Shortcode"
+msgstr "Yeni WCP OpenWeather kısa kod"
+
+#: templates/admin/constructor/layout.php:27
+msgid "Add"
+msgstr "Ekle"
+
+#: templates/admin/options/fields/lang.php:46
+msgid "Not supported in the current theme"
+msgstr "Geçerli teman desteklenmiyor"
+
+#: templates/admin/options/layout-headline-links.php:3
+msgid "Useful Links"
+msgstr "Kullanışlı bağlantılar"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Documentation"
+msgstr "Kayıtlar"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Live Demo"
+msgstr "Canlı Demo"
+
+#: templates/admin/options/layout-headline-links.php:6
+msgid "FAQ"
+msgstr "En sık sorulan sorular"
+
+#: templates/admin/options/layout-headline-links.php:7
+msgid "Support Form"
+msgstr "Destek Formu"
+
+#: templates/admin/options/layout-headline-links.php:8
+msgid "Help with Translation"
+msgstr "Çeviri ile yardımcı olmak"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+msgstr ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+
+#: templates/admin/options/layout.php:23
+msgid ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+msgstr ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+
+#: templates/admin/options/layout.php:45
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: templates/admin/options/layout.php:46 templates/user/options/layout.php:21
+msgid "Reset to Default"
+msgstr "Varsayılana Geri Dön"
+
+#: templates/user/options/layout.php:20
+msgid "Save & Refresh"
+msgstr "Kaydet & Yenile"
+
+# More information about the plugin you can find on the plugin page in the FAQ and Screenshots sections. Live demo you can find on our site.
+#~ msgid ""
+#~ "More information about the plugin you can find on the <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">plugin page</a> in the <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> "
+#~ "and <a href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/"
+#~ "\" target=\"_blank\" title=\"Screenshots\">Screenshots</a> sections. "
+#~ "<strong>Live demo</strong> you can find on <a href=\"http://wpdemo."
+#~ "webcodin.com/weather-forecast/\" target=\"_blank\" title=\"Live Demo"
+#~ "\">our site</a>."
+#~ msgstr ""
+#~ "Daha fazla bilgi için <a href=\"https://wordpress.org/plugins/wcp-"
+#~ "openweather/\" target=\"_blank\" title=\"wordpress.org\">eklenti sayfası</"
+#~ "a>, sorularınız için <a href=\"https://wordpress.org/plugins/wcp-"
+#~ "openweather/faq/\" target=\"_blank\" title=\"FAQ\">SSS Sayfası</a> ve <a "
+#~ "href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/\" "
+#~ "target=\"_blank\" title=\"Screenshots\">Ekran Görüntüleri</a>'ni "
+#~ "bulabilirsiniz. <strong>Demo Gösterimi</strong> sayfamızda bulabilirsiniz."
+#~ "<a href=\"http://wpdemo.webcodin.com/weather-forecast/\" target=\"_blank"
+#~ "\" title=\"Live Demo\">Tıklayın</a>."

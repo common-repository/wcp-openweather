@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Default Theme"
+msgstr "Προεπιλεγμένο θέμα"
+
+#: classes/widget/Weather.class.php:12
+msgid "Adds weather to sidebar"
+msgstr "Πρόσθεση καιρού στο sidebar"
+
+#: classes/widget/Weather.class.php:13
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:12
+msgid "Adds mini weather to sidebar"
+msgstr "Πρόσθεση μικρού καιρού στο sidebar"
+
+#: classes/widget/WeatherMini.class.php:13
+msgid "WCP Weather Mini"
+msgstr "WCP Weather μικρού"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: config/admin-options-fields.php:12
+msgid "Background Color"
+msgstr "Χρώμα φόντου"
+
+#: config/admin-options-fields.php:22
+msgid "Text Color"
+msgstr "Χρώμα κειμένου"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Μπορείτε να αλλάξετε το τρέχον θέμα <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">εδώ</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Επαναφορά ρυθμίσεων"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Ωχ! Τίποτα δεν βρέθηκε!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:26
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:26
+msgid "Wind"
+msgstr "Άνεμος"
+
+#: templates/shortcode/wcp_weather/compact/now.php:32
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:32
+msgid "Humidity"
+msgstr "Υγρασία"
+
+#: templates/shortcode/wcp_weather/compact/now.php:38
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:38
+msgid "Pressure"
+msgstr "Πίεση"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Ημέρα"
+
+# Cond. it means condition? if yes Κατάσταση is full word and short word is Κατάστ.
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Κατάστ."
+
+# temp. is temperature? full word is Θερμοκρασία and short Θερμ.
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Θερμ."
+
+# if Pres. is Pressure if yes is correct then Πίεση
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Πίεση"

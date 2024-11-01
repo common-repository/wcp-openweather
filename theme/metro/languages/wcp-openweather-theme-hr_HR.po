@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Metro Theme"
+msgstr "Metro Tema"
+
+#: classes/widget/Weather.class.php:10
+msgid "Adds weather to sidebar"
+msgstr "Dodaje vrijeme na siebar"
+
+#: classes/widget/Weather.class.php:11
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:10
+msgid "Adds mini weather to sidebar"
+msgstr "Dodaje mini-vrijeme na sidebar"
+
+#: classes/widget/WeatherMini.class.php:11
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:43
+#: config/admin-options-fields.php:61 config/admin-options-fields.php:81
+msgid "Image"
+msgstr "Slika"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:47
+#: templates/admin/constructor/fields/shortcodeImage.php:26
+#: templates/admin/options/fields/image.php:34
+msgid "Delete Image"
+msgstr "Izbriši Sliku"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:52
+#: templates/admin/constructor/fields/shortcodeImage.php:31
+#: templates/admin/options/fields/image.php:39
+msgid "Upload Image"
+msgstr "Dodaj Sliku"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:63
+#: config/admin-options-fields.php:18
+msgid "Text Color"
+msgstr "Boja teksta"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:77
+#: config/admin-options-fields.php:28
+msgid "Background Color"
+msgstr "Pozadinska boja"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:92
+#: config/admin-options-fields.php:38
+msgid "Background Opacity, %"
+msgstr "Prozirnost Pozadine, %"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Globalne postavke"
+
+#: config/admin-options-fields.php:9
+msgid "Widget settings"
+msgstr "Widget postavke"
+
+#: config/admin-options-fields.php:12
+msgid "Shortcode settings"
+msgstr "Kratki kôd  postavke"
+
+#: config/admin-options-fields.php:49 config/admin-options-fields.php:69
+msgid "Image Size"
+msgstr "Veličina slike"
+
+#: templates/admin/constructor/addon.php:9
+msgid "Theme Settings"
+msgstr "Postavke tema"
+
+#: templates/admin/constructor/before-render.php:5
+msgid "Use default plugin settings"
+msgstr "Koristi zadane postavke dodatka"
+
+#: templates/admin/options/fields/imagesize.php:23
+msgid "Width"
+msgstr "Širina"
+
+#: templates/admin/options/fields/imagesize.php:25
+msgid "Height"
+msgstr "Visina"
+
+#: templates/admin/options/fields/imagesize.php:29
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Izreži thumbnail na točne dimenzije"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Trenutnu temu možete promijeniti <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">ovdje</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Spremi Promjene"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Resetiraj na Zadano"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Ooops! Ništa nije pronađeno!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:13
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:13
+#: templates/widget/wcp_weather_widget/default/now.php:21
+msgid "Wind"
+msgstr "Vjetar"
+
+#: templates/shortcode/wcp_weather/compact/now.php:19
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:19
+#: templates/widget/wcp_weather_widget/default/now.php:25
+msgid "Pressure"
+msgstr "Tlak"
+
+#: templates/shortcode/wcp_weather/compact/now.php:36
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:36
+#: templates/widget/wcp_weather_widget/default/now.php:31
+msgid "Humidity"
+msgstr "Vlažnost"
+
+#: templates/shortcode/wcp_weather/compact/now.php:42
+#: templates/shortcode/wcp_weather/default/now.php:42
+#: templates/widget/wcp_weather_widget/default/now.php:35
+msgid "Clouds"
+msgstr "Naoblaka"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Dan"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Uvjeti"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Temp."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Tlak"
+
+#~ msgid "Default Theme"
+#~ msgstr "Zadana Tema"

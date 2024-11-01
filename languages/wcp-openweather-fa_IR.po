@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Morteza <rajabzademorteza@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: assets\n"
+"X-Poedit-SearchPath-1: classes\n"
+"X-Poedit-SearchPath-2: config\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: classes/RPw.class.php:223
+msgid "Add new WCP OpenWeather shortcode"
+msgstr "افزودن شورتکد جدید برای wcp-openweather"
+
+#: classes/RPw.class.php:558
+msgid ""
+"Google API key is required. Please, enter valid Google API Key in the \"API"
+"\" tab."
+msgstr ""
+
+#: classes/Settings.class.php:110
+msgid "Auto Detect"
+msgstr "شناسایی خودکار"
+
+#: classes/Settings.class.php:118
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: classes/persistence/Convertor.class.php:104
+#: classes/persistence/Convertor.class.php:120
+msgid "N"
+msgstr "شمال"
+
+#: classes/persistence/Convertor.class.php:105
+msgid "NNE"
+msgstr "شمال و شمال شرقی"
+
+#: classes/persistence/Convertor.class.php:106
+msgid "NE"
+msgstr "شمال شرقی"
+
+#: classes/persistence/Convertor.class.php:107
+msgid "ENE"
+msgstr "شرق و شمال شرقی"
+
+#: classes/persistence/Convertor.class.php:108
+msgid "E"
+msgstr "شرق"
+
+#: classes/persistence/Convertor.class.php:109
+msgid "ESE"
+msgstr "شرق و جنوب شرقی"
+
+#: classes/persistence/Convertor.class.php:110
+msgid "SE"
+msgstr "جنوب شرقی"
+
+#: classes/persistence/Convertor.class.php:111
+msgid "SSE"
+msgstr "جنوب و جنوب شرقی"
+
+#: classes/persistence/Convertor.class.php:112
+msgid "S"
+msgstr "جنوب"
+
+#: classes/persistence/Convertor.class.php:113
+msgid "SSW"
+msgstr "جنوب و جنوب غربی"
+
+#: classes/persistence/Convertor.class.php:114
+msgid "SW"
+msgstr "جنوب غربی"
+
+#: classes/persistence/Convertor.class.php:115
+msgid "WSW"
+msgstr "غرب و جنوب غربی"
+
+#: classes/persistence/Convertor.class.php:116
+msgid "W"
+msgstr "غرب"
+
+#: classes/persistence/Convertor.class.php:117
+msgid "WNW"
+msgstr "غرب و شمال غربی"
+
+#: classes/persistence/Convertor.class.php:118
+msgid "NW"
+msgstr "شمال غربی"
+
+#: classes/persistence/Convertor.class.php:119
+msgid "NNW"
+msgstr "شمال و شمال غربی"
+
+#: classes/theme/ThemeEntity.class.php:148
+msgid "Theme Settings"
+msgstr "تنظیمات پوسته‌ی ابزارک"
+
+#: classes/theme/ThemeEntity.class.php:162
+msgid "Select"
+msgstr "گزینش"
+
+#: classes/theme/ThemeEntity.class.php:163
+msgid "Upload Image"
+msgstr "بارگذاری تصویر"
+
+#: classes/theme/ThemeSettings.class.php:114
+msgid "Settings reset to default values"
+msgstr "بازگردانی تنظیمات به مقادیر پیشفرض"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:117
+msgid "Title"
+msgstr "عنوان: "
+
+#: classes/widget/WeatherWidgetAbstract.class.php:126
+#: config/admin-options-fields.php:69
+msgid "Template"
+msgstr "قالب (Template)"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:143
+#: config/admin-options-fields.php:77
+msgid "Show current weather"
+msgstr "نمایش آب و هوای کنونی"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:150
+#: config/admin-options-fields.php:84
+msgid "Show 5 day forecast"
+msgstr "نمایش هوای 5 روز آینده"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:156
+#: config/admin-options-fields.php:27
+msgid "City Name"
+msgstr "نام شهر مورد نظر را وارد فرمایید:"
+
+# You can find you city name on www.openweathermap.com.
+#: classes/widget/WeatherWidgetAbstract.class.php:158
+#: config/admin-options-fields.php:33
+msgid ""
+"You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+msgstr ""
+"شما می توانید نام شهر خود را در <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a> بیابید."
+
+#: classes/widget/WeatherWidgetAbstract.class.php:174
+#: config/admin-options-fields.php:45
+msgid "Temperature"
+msgstr "درجه حرارت"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:193
+#: config/admin-options-fields.php:53
+msgid "Wind Speed"
+msgstr "سرعت باد"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:212
+#: config/admin-options-fields.php:61
+msgid "Pressure"
+msgstr "فشار"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:228
+msgid "Enable user options"
+msgstr "فعالسازی گزینه‌های کاربر"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:235
+msgid "Hide description of the weather conditions"
+msgstr "مخفی سازی توضیحات شرایط آب و هوا"
+
+#: config/admin-menu.php:5 config/admin-menu.php:6
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: config/admin-menu.php:14 config/admin-menu.php:15
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: config/admin-options-fields.php:6
+msgid "Location"
+msgstr "موقعیت"
+
+#: config/admin-options-fields.php:9
+msgid "Units"
+msgstr "واحدها"
+
+#: config/admin-options-fields.php:13
+msgid "Display Options"
+msgstr "گزینه‌های نمایش"
+
+#: config/admin-options-fields.php:94
+msgid "General"
+msgstr "عمومی"
+
+#: config/admin-options-fields.php:97
+msgid "User Options"
+msgstr "گزینه‌های کاربر"
+
+#: config/admin-options-fields.php:100
+msgid "Other"
+msgstr "سایر"
+
+#: config/admin-options-fields.php:106
+msgid "Language"
+msgstr "زبان"
+
+#: config/admin-options-fields.php:115
+msgid "Current Theme"
+msgstr "پوسته کنونی"
+
+#: config/admin-options-fields.php:124
+msgid "Refresh Time"
+msgstr "زمان رفرش اطلاعات"
+
+#: config/admin-options-fields.php:131
+msgid "Hide Description of the Weather Conditions"
+msgstr "مخفی سازی توضیحات شرایط آب و هوا"
+
+#: config/admin-options-fields.php:138
+msgid "\"No Data\" Message"
+msgstr "متن پیام \"No Data\""
+
+#: config/admin-options-fields.php:146
+msgid "Enable \"Google Maps API\""
+msgstr "فعالسازی \"Google Maps API\""
+
+#: config/admin-options-fields.php:153
+msgid "Enable User Options"
+msgstr "فعالسازی گزینه‌های کاربر"
+
+#: config/admin-options-fields.php:160
+msgid "Expire User Options (days)"
+msgstr "انقضای گزینه‌های کاربر (تعداد روز)"
+
+#: config/admin-options-fields.php:175 templates/user/options/layout.php:12
+msgid "Options"
+msgstr "تنظیمات آب و هوا"
+
+#: config/admin-options-fields.php:180
+msgid "API key"
+msgstr "کلید API"
+
+# How to get API key you can see here.
+#: config/admin-options-fields.php:185
+msgid ""
+"How to get API key you can see <a href=\"http://openweathermap.org/appid\" "
+"title=\"http://openweathermap.org/appid\" target=\"_blank\">here</a>."
+msgstr ""
+"برای کسب اطلاع در مورد چگونگی گرفتن API می‌توانید از <a href=\"http://"
+"openweathermap.org/appid\" title=\"http://openweathermap.org/appid\" target="
+"\"_blank\">اینجا</a> بازدید نمایید."
+
+#: config/admin-options-fields.php:188
+msgid "Google API key"
+msgstr "کلید Google API"
+
+#: config/admin-options-fields.php:193
+msgid ""
+"How to get Google API key you can see <a href=\"https://developers.google."
+"com/maps/documentation/javascript/get-api-key\" title=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"برای کسب اطلاع در مورد چگونگی گرفتنGoogle API می‌توانید از <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/get-api-key\" title="
+"\"https://developers.google.com/maps/documentation/javascript/get-api-key\" "
+"target=\"_blank\">اینجا</a> بازدید نمایید."
+
+#: config/admin-options-fieldset.php:4
+msgid "&deg;C"
+msgstr "&deg;C"
+
+#: config/admin-options-fieldset.php:5
+msgid "&deg;F"
+msgstr "&deg;F"
+
+#: config/admin-options-fieldset.php:8
+msgid "mph"
+msgstr "متر بر ساعت (mph)"
+
+#: config/admin-options-fieldset.php:9
+msgid "km/h"
+msgstr "کیلومتر بر ساعت (km/h)"
+
+#: config/admin-options-fieldset.php:10
+msgid "m/s"
+msgstr "متر بر ثانیه (m/s)"
+
+#: config/admin-options-fieldset.php:11
+msgid "Knots"
+msgstr "گره (Knots)"
+
+#: config/admin-options-fieldset.php:14
+msgid "atm"
+msgstr "اتمسفر (atm)"
+
+#: config/admin-options-fieldset.php:15
+msgid "bar"
+msgstr "بار (bar)"
+
+#: config/admin-options-fieldset.php:16
+msgid "hPa"
+msgstr "هکتو پاسکال (hPa)"
+
+#: config/admin-options-fieldset.php:17
+msgid "kgf/cm²"
+msgstr "کیلوگرم نیرو بر سانتیمترمربع (kgf/cm²)"
+
+#: config/admin-options-fieldset.php:18
+msgid "kgf/m²"
+msgstr "کیلوگرم نیرو بر متر مربع (kgf/m²)"
+
+#: config/admin-options-fieldset.php:19
+msgid "kPa"
+msgstr "کیلو پاسکال (kPa)"
+
+#: config/admin-options-fieldset.php:20
+msgid "mbar"
+msgstr "میلی بار (mbar)"
+
+#: config/admin-options-fieldset.php:21
+msgid "mmHg"
+msgstr "میلی متر جیوه (mmHg)"
+
+#: config/admin-options-fieldset.php:22
+msgid "inHg"
+msgstr "اینچ جیوه (inHg)"
+
+#: config/admin-options-fieldset.php:23
+msgid "Pa"
+msgstr "پاسکال (Pa)"
+
+#: config/admin-options-fieldset.php:24
+msgid "psf"
+msgstr "پوند بر فوت مربع (psf)"
+
+#: config/admin-options-fieldset.php:25
+msgid "psi"
+msgstr "پوند بر اینچ مربع (psi)"
+
+#: config/admin-options-fieldset.php:26
+msgid "torr"
+msgstr "تور (1Torr=133.3 Pa)"
+
+#: config/admin-options-fieldset.php:29
+msgid "Always"
+msgstr "همیشه"
+
+#: config/admin-options-fieldset.php:30
+msgid "0.5h - Not Recommended"
+msgstr "نیم ساعت - توصیه نمی‌شود"
+
+#: config/admin-options-fieldset.php:31
+msgid "1h - Recommended"
+msgstr "یک ساعت - توصیه می‌شود"
+
+#: config/admin-options-fieldset.php:32
+msgid "2h"
+msgstr "2 ساعت"
+
+#: config/admin-options-fieldset.php:33
+msgid "3h"
+msgstr "3 ساعت"
+
+#: config/admin-options-fieldset.php:34
+msgid "6h"
+msgstr "6 ساعت"
+
+#: config/admin-options-fieldset.php:35
+msgid "9h"
+msgstr "9 ساعت"
+
+#: config/admin-options-fieldset.php:36
+msgid "12h"
+msgstr "12 ساعت"
+
+#: config/admin-options-fieldset.php:37
+msgid "24h"
+msgstr "24 ساعت"
+
+#: config/admin-options-fieldset.php:70
+msgid "mon"
+msgstr "دوشنبه"
+
+#: config/admin-options-fieldset.php:71
+msgid "tue"
+msgstr "سه شنبه"
+
+#: config/admin-options-fieldset.php:72
+msgid "wed"
+msgstr "چهارشنبه"
+
+#: config/admin-options-fieldset.php:73
+msgid "thu"
+msgstr "پنجشنبه"
+
+#: config/admin-options-fieldset.php:74
+msgid "fri"
+msgstr "جمعه"
+
+#: config/admin-options-fieldset.php:75
+msgid "sat"
+msgstr "شنبه"
+
+#: config/admin-options-fieldset.php:76
+msgid "sun"
+msgstr "یکشنبه"
+
+#: config/admin-options-fieldset.php:79
+msgid "jan"
+msgstr "ژانویه"
+
+#: config/admin-options-fieldset.php:80
+msgid "feb"
+msgstr "فوریه"
+
+#: config/admin-options-fieldset.php:81
+msgid "mar"
+msgstr "مارس"
+
+#: config/admin-options-fieldset.php:82
+msgid "apr"
+msgstr "آوریل"
+
+#: config/admin-options-fieldset.php:83
+msgid "may"
+msgstr "مه"
+
+#: config/admin-options-fieldset.php:84
+msgid "jun"
+msgstr "ژوئن"
+
+#: config/admin-options-fieldset.php:85
+msgid "jul"
+msgstr "جولای"
+
+#: config/admin-options-fieldset.php:86
+msgid "aug"
+msgstr "آگوست"
+
+#: config/admin-options-fieldset.php:87
+msgid "sep"
+msgstr "سپتامبر"
+
+#: config/admin-options-fieldset.php:88
+msgid "oct"
+msgstr "اکتبر"
+
+#: config/admin-options-fieldset.php:89
+msgid "nov"
+msgstr "نوامبر"
+
+#: config/admin-options-fieldset.php:90
+msgid "dec"
+msgstr "دسامبر"
+
+#: config/admin-options-tabs.php:4
+msgid "Weather"
+msgstr "آب و هوا"
+
+#: config/admin-options-tabs.php:7
+msgid "Plugin"
+msgstr "افزونه"
+
+#: config/admin-options-tabs.php:10
+msgid "API"
+msgstr "API"
+
+#: templates/admin/constructor/layout.php:12
+msgid "WCP OpenWeather Shortcode"
+msgstr "شورتکد WCP OpenWeather"
+
+#: templates/admin/constructor/layout.php:27
+msgid "Add"
+msgstr "افزودن"
+
+#: templates/admin/options/fields/lang.php:46
+msgid "Not supported in the current theme"
+msgstr "در قالب کنونی پشتیبانی نمی‌شود"
+
+#: templates/admin/options/layout-headline-links.php:3
+msgid "Useful Links"
+msgstr "لینک های مفید"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Documentation"
+msgstr "مستندات"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Live Demo"
+msgstr "نسخه ی نمایشی زنده"
+
+#: templates/admin/options/layout-headline-links.php:6
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: templates/admin/options/layout-headline-links.php:7
+msgid "Support Form"
+msgstr "فرم پشتیبانی"
+
+#: templates/admin/options/layout-headline-links.php:8
+msgid "Help with Translation"
+msgstr "کمک به ترجمه"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+msgstr ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+
+#: templates/admin/options/layout.php:23
+msgid ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+msgstr ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+
+#: templates/admin/options/layout.php:45
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: templates/admin/options/layout.php:46 templates/user/options/layout.php:21
+msgid "Reset to Default"
+msgstr "بازگردانی به پیشفرض"
+
+#: templates/user/options/layout.php:20
+msgid "Save & Refresh"
+msgstr "ذخیره و مشاهده"
+
+# More information about the plugin you can find on the plugin page in the FAQ and Screenshots sections. Live demo you can find on our site.
+#~ msgid ""
+#~ "More information about the plugin you can find on the <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">plugin page</a> in the <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> "
+#~ "and <a href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/"
+#~ "\" target=\"_blank\" title=\"Screenshots\">Screenshots</a> sections. "
+#~ "<strong>Live demo</strong> you can find on <a href=\"http://wpdemo."
+#~ "webcodin.com/weather-forecast/\" target=\"_blank\" title=\"Live Demo"
+#~ "\">our site</a>."
+#~ msgstr ""
+#~ "More information about the plugin you can find on the <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">plugin page</a> in the <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> "
+#~ "and <a href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/"
+#~ "\" target=\"_blank\" title=\"Screenshots\">Screenshots</a> sections. "
+#~ "<strong>Live demo</strong> you can find on <a href=\"http://wpdemo."
+#~ "webcodin.com/weather-forecast/\" target=\"_blank\" title=\"Live Demo"
+#~ "\">our site</a>."

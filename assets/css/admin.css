@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------*/
+/*-- CSS Document --*/
+/*-- Copyright (c) 2015. WebCodin --*/
+/*-- @author WebCodin --*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Font Face Including ---*/
+/*--------------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [Roboto] :: Regular ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype'),
+         url('../fonts/roboto-regular.svg#Roboto-Regular') format('svg');
+}
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [Roboto] :: Bold ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/roboto-bold.eot');
+    src: url('../fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold.woff') format('woff'),
+         url('../fonts/roboto-bold.ttf') format('truetype'),
+         url('../fonts/roboto-bold.svg#Roboto-Bold') format('svg');
+}
+/*-----------------------------------------------------------------*/
+/*--- WCP OpenWeather Custom Fonts ---*/
+/*-----------------------------------------------------------------*/
+.wcp-openweather-settings-popup .wcp-openweather-settings-title, .wcp-openweather-settings-popup .wcp-openweather-settings-section-title, .wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn { font-family: 'Roboto-Bold', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; }
+.wcp-openweather-settings-popup { font-family: 'Roboto-Regular', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Hedaline Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-headline { margin: 20px 20px 0 0; border: 1px solid #dfdfdf; background: #fff; padding: 20px 10px; box-sizing: border-box; }
+.wcp-openweather-headline > table { width: 100%; font-size: 1em; }
+.wcp-openweather-headline td { vertical-align: middle; }
+.wcp-openweather-headline-icon { width: 128px; }
+.wcp-openweather-headline-icon img { display: block; }
+.wcp-openweather-headline-info { padding: 0 20px; }
+.wcp-openweather-headline-info h1 { margin: 0; padding: 0 0 10px; line-height: 1em; }
+.wcp-openweather-headline-info p { margin: 0; padding: 5px 0; }
+.wcp-openweather-headline-info .wcp-openweather-headline-rate { text-decoration: none; color: #36a9cf; font-weight: bold; }
+.wcp-openweather-headline-links { width: 20%; }
+.wcp-openweather-headline-links .wcp-openweather-headline-links-wrapper { background: #36a9cf; color: #fff; padding: 10px; }
+.wcp-openweather-headline-links h2 { margin: 0; padding: 0 0 10px; color: #fff; }
+.wcp-openweather-headline-links ul, .wcp-openweather-headline-links ul li { margin: 0; padding: 0; } 
+.wcp-openweather-headline-links ul li { padding: 2px 0; }
+.wcp-openweather-headline-links a { text-decoration: none; color: #fff; outline: none; box-shadow: none; }
+.wcp-openweather-headline-links span.dashicons { font-size: 16px; width: 16px; height: 16px; line-height: 16px; vertical-align: middle; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Form Styles ---*/
+/*--------------------------------------------------------------*/
+.wrap.wcp-openweather-form-wrap { margin: 0 20px 0 0; }
+.wrap.wcp-openweather-theme-settings > h2 { padding: 0; }
+.wrap.wcp-openweather-form-wrap .nav-tab-wrapper { border: 1px solid #dfdfdf; border-width: 0 1px 1px; background: #fff; padding: 10px; }
+.wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab { border: 0; padding: 5px 25px; background: #dfdfdf; margin: 0 0 0 10px; }  
+.wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab:first-child { margin: 0 0 0 5px; }                              
+.wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab-active { background: #36a9cf; color: #fff; }
+/*--------------------------------------------------------------*/
+.wrap.wcp-openweather-form-wrap p.submit .button.button-primary { background: #959595; border: 0;  border-radius: 0; box-shadow: none; text-shadow: none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px 25px; height: auto; line-height: 24px; font-size: 14px; margin-right: 10px; }
+.wrap.wcp-openweather-form-wrap p.submit .button.button-primary:first-child { background: #36a9cf; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-form-wrap .settings-error { margin: 15px 0 0px!important; }
+/*--------------------------------------------------------------*/
+.wcp-settings-content { padding-top: 15px; }
+.wcp-settings-content .wcp-settings-title { background: #36a9cf; color: #fff; padding: 10px 15px; }
+.wcp-settings-content .wcp-settings-title h3 { margin: 0; text-transform: uppercase; color: #fff; font-size: 15px; }                                                                           
+.wcp-settings-content .wcp-settings-inner-table { background: #fff; border: 1px solid #e1e1e1; border-width: 0 1px 1px; padding: 7px 15px; margin: 0; } 
+.wcp-settings-content .wcp-settings-inner-table > .description { background: #fff; padding: 1px 15px 9px; border-bottom: 1px solid #e1e1e1; margin: 0 -15px 7px; }
+/*--------------------------------------------------------------*/
+.wcp-settings-content .wcp-settings-inner-table .form-table { margin: 0; }
+.wcp-settings-content .wcp-settings-inner-table .form-table th { padding: 15px 10px 15px 0; }
+.wcp-settings-content .wcp-settings-inner-table .form-table input[type="number"] { width: 100px; }
+.wcp-settings-content .wcp-settings-inner-table .form-table .wcp-field-imagesize input[type="number"] { margin-right: 10px; }
+.wcp-settings-content .wcp-settings-inner-table .form-table .wcp-field-imagesize .wcp-field-settings-row { padding-top: 10px; margin-bottom: -5px; }
+.wcp-settings-content .wcp-settings-inner-table .form-table .wcp-field-imagesize .wcp-field-settings-row input[type="checkbox"] { margin: 0 !important; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Options Popup Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-popup { padding: 12px 15px 15px; background: #fff; color: #333; text-align: left !important; line-height: 24px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-title { border-bottom: 1px solid #cfcfcf; display: block; font-size: 20px; line-height: 22px; margin: 0 0 12px; padding: 0 0 7px; min-height: 30px; box-sizing: border-box; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-form { border: 0; margin: 0; padding: 0; width: 100%; overflow: hidden; font-size: 16px; line-height: 24px; outline: none; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section { margin: 0; padding: 0 0 12px 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section-title { display: block; font-size: 16px; line-height: 16px; margin: 0; padding: 0 0 5px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input[type="text"], .wcp-openweather-settings-popup .wcp-openweather-settings-section select, .wcp-openweather-settings-popup .wcp-openweather-settings-section textarea {  font-family: 'Roboto-Regular', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; background: #fff; border: 1px solid #cfcfcf; border-radius: 0; box-sizing: border-box; color: #333; font-size: 14px; line-height: 17px; height: 32px; margin: 0; padding: 7px 8px 6px; width: 100%; box-shadow: none !important; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input[type="text"] { -webkit-appearance: none; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input::-webkit-input-placeholder { color: #999; padding: 1px 0 0 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input:-ms-input-placeholder { color: #999; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input:-moz-placeholder { opacity: 1; color: #999;}
+.wcp-openweather-settings-popup .wcp-openweather-settings-section input::-moz-placeholder { opacity: 1; color: #999; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section select { padding: 5px 8px; line-height: 32px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section textarea { padding: 5px 8px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-field { margin: 0; padding: 0; line-height: 19px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-label { display: inline-block; font-size: 14px; line-height: 14px; padding: 0 0 5px; margin: 0; color: #333; vertical-align: baseline; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-description { display: block; font-size: 12px; line-height: 14px; margin: 0; padding: 2px 0 0; color: #333; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-description a { font-size: 12px; margin: 0; padding: 0; color: #03a9f4; text-decoration: underline; outline: none; border: 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-description a:hover { font-size: 12px; margin: 0; padding: 0; color: #03a9f4; text-decoration: none; outline: none; border: 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units { width: 102%; margin-left: -2%; display: table; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units .wcp-openweather-settings-section-title { width: 100%; float: left; padding-left: 2%; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units .wcp-openweather-settings-field { float: left; width: 33.33%; padding: 0 0 0 2%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field { width: 100%; overflow: hidden; padding-top: 6px; line-height: 16px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field label { line-height: 15px; max-width: 95%; padding: 0; vertical-align: top; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field input[type="checkbox"] { float: left; padding: 0; margin: 1px 5px 0 0; height: auto; min-width: inherit; width: auto !important; -webkit-appearance: checkbox !important; box-shadow: none !important; transition: none !important; outline: none; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field input[type=checkbox]:checked:before { content: ''; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Settings ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-image-addon .wcp-openweather-settings-image-addon-container { position: relative; display: inline-block; padding: 5px; border: 1px solid #ccc; box-sizing: border-box; max-width: 100%; }
+.wcp-openweather-settings-image-addon .wcp-openweather-theme-img-screenshot img { display: block; max-width: 100%; height: auto; }
+.wcp-openweather-settings-image-addon .wcp-openweather-theme-action { position: absolute; bottom: 5px; left: 5px; right: 5px; background: rgba(0,0,0,0.5); padding: 10px; }
+.wcp-openweather-settings-image-addon .wcp-openweather-theme-btn-delete { position: absolute; top: 5px; right: 5px; background: #f04343; height: 30px; width: 32px; color: #fff; text-align: center; text-decoration: none !important; outline: none !important; }
+.wcp-openweather-settings-image-addon .wcp-openweather-theme-btn-delete .dashicons { font-size: 19px; line-height: 29px; }
+.wcp-openweather-settings-image-addon .wcp-openweather-theme-btn-delete:hover, .wcp-openweather-settings-image-addon .wcp-openweather-theme-btn-delete:focus { background: #fd5b5b; box-shadow: none !important; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-field.wcp-openweather-settings-field-widget { margin: 1em 0; }
+.wcp-openweather-settings-field.wcp-openweather-settings-field-widget label { display: inline-block; padding-bottom: 3px; }
+.wcp-openweather-settings-field.wcp-openweather-settings-field-widget .wcp-openweather-settings-image-addon { width: 250px; }
+.wcp-openweather-settings-field.wcp-openweather-settings-field-widget .wcp-openweather-theme-img-screenshot img { width: 100%; }
+.wcp-openweather-settings-field-widget-columns { width: 100%; overflow: hidden; }
+.wcp-openweather-settings-field-widget-columns .wcp-openweather-settings-field.wcp-openweather-settings-field-widget { float: left; max-width: 50%; width: 125px; box-sizing: border-box; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-field-input .wp-picker-container { position: relative; }
+.wcp-openweather-settings-field-input .wp-picker-container .wp-picker-holder { position: absolute; bottom: 30px; z-index: 100; }
+.wcp-openweather-settings-field-input .wp-picker-container .wp-color-result { margin-bottom: 0 !important; }
+.wcp-openweather-settings-field-input .wp-picker-container .wp-picker-clear { margin: 0 0 0 6px !important; }
+.wcp-openweather-settings-field-input .wp-picker-container .wp-picker-clear:first-child { margin: 0 !important; }
+/*--------------------------------------------------------------*/
+table.form-table .wcp-openweather-settings-field-input .wp-picker-container .wp-picker-holder { bottom: auto; top: 30px; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon { display: table; width: 100%; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon .wcp-openweather-settings-column { float: left; max-width: 50%; box-sizing: border-box; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon .wcp-openweather-settings-column .wcp-openweather-settings-field { padding: 0 0 12px 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon .wcp-openweather-settings-column.wcp-openweather-settings-last { padding-left: 15px; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-addon.wcp-openweather-settings-options .wcp-openweather-settings-field { padding: 0 0 5px 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-section .wcp-openweather-settings-field .wcp-openweather-settings-field-input .wp-color-result { margin: 0; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-settings-popup .wcp-openweather-settings-actions { width: 100%; overflow: hidden; padding: 2px 0 0 0; margin: 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn { float: left; background: #03a9f4 !important; border: 0 none !important; border-radius: 0 !important; box-shadow: none !important; color: #fff; cursor: pointer; font-size: 14px; line-height: 15px; margin: 0 0 0 15px; min-height: 33px; min-width: 160px; outline: none !important; padding: 9px 15px; text-shadow: none; text-transform: uppercase; text-align: center; vertical-align: bottom; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; text-decoration: none; word-wrap: break-word; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-actions input[type="submit"].wcp-openweather-settings-btn { line-height: 13px; -webkit-appearance: none; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn:first-child { margin: 0; }
+.wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn:hover { background: #03a9f4; opacity: 0.8; }
+
+
+/*-----------------------------------------------------------------*/                               
+/*--- Media Queries Styles ---*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*---------- Styles for tablet from 1700 --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 1700px) {
+    .wcp-openweather-headline-links { width: 15%; }
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for tablet 1025 - 1400px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    .wcp-openweather-headline-links { width: 25%; }
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for tablet 0 - 1024px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 1024px) {
+    .wcp-openweather-headline-icon { display: none; width: 0; }
+    .wcp-openweather-headline-info p:last-child { padding-bottom: 0; }
+    .wcp-openweather-headline-links { width: 30%; }
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for WP adaprive page canvas 0 - 782px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 782px) {
+    .wcp-openweather-headline { margin: 10px 10px 0 0; }
+    .wrap.wcp-openweather-form-wrap { margin: 0 10px 0 0;  }
+    .wcp-settings-content { padding-top: 10px; }
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 767px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    .wcp-openweather-settings-popup { padding: 9px 12px 12px; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-label { padding: 0 0 3px; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units { width: 100%; margin-left: 0; display: block; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units .wcp-openweather-settings-section-title { float: none; padding-left: 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-units .wcp-openweather-settings-field { float: none; width: 100%; padding: 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field label { max-width: 80%; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn { display: block; float: none; width: 100%; margin: 7px 0 0 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-actions .wcp-openweather-settings-btn:first-child { margin-top: 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section.wcp-openweather-settings-options .wcp-openweather-settings-field input[type="checkbox"] { margin: 0 5px 0 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon .wcp-openweather-settings-column { float: none; max-width: 100%; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-theme-addon .wcp-openweather-settings-column.wcp-openweather-settings-last { padding-left: 0; }
+    .wcp-openweather-settings-popup .wcp-openweather-settings-section .wcp-openweather-settings-field .wcp-openweather-settings-image-addon .wcp-openweather-theme-actions .button, .wcp-openweather-settings-field.wcp-openweather-settings-field-widget .wcp-openweather-theme-action .button { font-size: 12px; padding: 3px 8px; margin-bottom: 0; }
+}  
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 640px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 640px) {
+    .wcp-openweather-headline-info { padding: 0; }
+    .wcp-openweather-headline-links { padding-top: 15px; }
+    .wcp-openweather-headline-info, .wcp-openweather-headline-links { display: block; width: 100%; }
+    .wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab { padding: 5px 18px; } 
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 570 --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 570px) {
+    .wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab { padding: 5px 10px; } 
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 480x --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 480px) {
+    .wrap.wcp-openweather-form-wrap .nav-tab-wrapper { padding-bottom: 0; }
+    .wrap.wcp-openweather-form-wrap .nav-tab-wrapper a.nav-tab { margin-bottom: 10px; padding: 5px 18px; }
+    .wcp-settings-content .wcp-settings-inner-table .form-table input[type="number"] { max-width: 70px; }
+    .wcp-settings-content .wcp-settings-inner-table .form-table label { font-size: 13px; }
+} 

@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Default Theme"
+msgstr "Plantilla predeterminada"
+
+#: classes/widget/Weather.class.php:12
+msgid "Adds weather to sidebar"
+msgstr "Afegeix temps a la barra lateral "
+
+#: classes/widget/Weather.class.php:13
+msgid "WCP Weather"
+msgstr "WCP Temps"
+
+#: classes/widget/WeatherMini.class.php:12
+msgid "Adds mini weather to sidebar"
+msgstr "Afegeix mini weather al sidebar"
+
+#: classes/widget/WeatherMini.class.php:13
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Configuració global"
+
+#: config/admin-options-fields.php:12
+msgid "Background Color"
+msgstr "Color de fons"
+
+#: config/admin-options-fields.php:22
+msgid "Text Color"
+msgstr "Color de text"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Podeu camviar el tema actual <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Guardar Canvis"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Le configuració es restablirà al valor inicial"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Ups! No S'ha Trobat Res"
+
+#: templates/shortcode/wcp_weather/compact/now.php:26
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:26
+msgid "Wind"
+msgstr "Vent"
+
+#: templates/shortcode/wcp_weather/compact/now.php:32
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:32
+msgid "Humidity"
+msgstr "Humitat"
+
+#: templates/shortcode/wcp_weather/compact/now.php:38
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:38
+msgid "Pressure"
+msgstr "Pressió"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Dia"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Cond."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Temp."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Pres."

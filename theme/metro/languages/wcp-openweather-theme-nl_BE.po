@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: nl_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Metro Theme"
+msgstr "Metro Thema"
+
+#: classes/widget/Weather.class.php:10
+msgid "Adds weather to sidebar"
+msgstr "Adds weather to sidebar"
+
+#: classes/widget/Weather.class.php:11
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:10
+msgid "Adds mini weather to sidebar"
+msgstr "Mini-weer toevoegen aan de sidebar"
+
+#: classes/widget/WeatherMini.class.php:11
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:43
+#: config/admin-options-fields.php:61 config/admin-options-fields.php:81
+msgid "Image"
+msgstr "Afbeelding"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:47
+#: templates/admin/constructor/fields/shortcodeImage.php:26
+#: templates/admin/options/fields/image.php:34
+msgid "Delete Image"
+msgstr "Afbeelding verwijderen"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:52
+#: templates/admin/constructor/fields/shortcodeImage.php:31
+#: templates/admin/options/fields/image.php:39
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:63
+#: config/admin-options-fields.php:18
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:77
+#: config/admin-options-fields.php:28
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:92
+#: config/admin-options-fields.php:38
+msgid "Background Opacity, %"
+msgstr "Achtergrond ondoorzichtigheid, %"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Globale instellingen"
+
+#: config/admin-options-fields.php:9
+msgid "Widget settings"
+msgstr "Widget instellingen"
+
+#: config/admin-options-fields.php:12
+msgid "Shortcode settings"
+msgstr "Shortcode instellingen"
+
+#: config/admin-options-fields.php:49 config/admin-options-fields.php:69
+msgid "Image Size"
+msgstr "Afbeeldingsgrootte"
+
+#: templates/admin/constructor/addon.php:9
+msgid "Theme Settings"
+msgstr "Thema instellingen"
+
+#: templates/admin/constructor/before-render.php:5
+msgid "Use default plugin settings"
+msgstr "Gebruik standaard plugininstellingen"
+
+#: templates/admin/options/fields/imagesize.php:23
+msgid "Width"
+msgstr "Breedte"
+
+#: templates/admin/options/fields/imagesize.php:25
+msgid "Height"
+msgstr "Hoogte"
+
+#: templates/admin/options/fields/imagesize.php:29
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Gewas thumbnail om te exacte afmetingen"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"<a href=\"/wp-admin/admin.php?page=wcp-weather&tab=plugin-settings\">Hier</"
+"a> kan je het huidige thema wijzigen."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Standaardwaarden terugzetten"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Ooops! Er werd niets gevonden!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:13
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:13
+#: templates/widget/wcp_weather_widget/default/now.php:21
+msgid "Wind"
+msgstr "Wind"
+
+#: templates/shortcode/wcp_weather/compact/now.php:19
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:19
+#: templates/widget/wcp_weather_widget/default/now.php:25
+msgid "Pressure"
+msgstr "Luchtdruk"
+
+#: templates/shortcode/wcp_weather/compact/now.php:36
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:36
+#: templates/widget/wcp_weather_widget/default/now.php:31
+msgid "Humidity"
+msgstr "Vochtigheid"
+
+#: templates/shortcode/wcp_weather/compact/now.php:42
+#: templates/shortcode/wcp_weather/default/now.php:42
+#: templates/widget/wcp_weather_widget/default/now.php:35
+msgid "Clouds"
+msgstr "Wolken"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Dag"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Cond."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Temp."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Luchtdr."
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Template"
+#~ msgstr "Sjabloon"
+
+#~ msgid "Show current weather"
+#~ msgstr "Toon het huidige weer"
+
+#~ msgid "Show 5 day forecast"
+#~ msgstr "Toon voorspelling voor 5 dagen"
+
+#~ msgid "City"
+#~ msgstr "Plaatsnaam"
+
+#~ msgid ""
+#~ "You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+#~ "title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+#~ "openweathermap.com</a>."
+#~ msgstr ""
+#~ "Je kan je plaatsnaam terugvinden op <a href=\"http://www.openweathermap."
+#~ "com/\" title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+#~ "openweathermap.com.</a>"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperatuur"
+
+#~ msgid "Wind Speed"
+#~ msgstr "Windsnelheid"
+
+#~ msgid "Hide description of the weather conditions"
+#~ msgstr "Verberg omschrijving van de weersomstandigheden"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"

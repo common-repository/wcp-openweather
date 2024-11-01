@@ -1,0 +1,15 @@
+@id : '';
+@background : '';
+@color : '';
+
+#@{id}.wcp-openweather-primary-background, #@{id} .wcp-openweather-primary-background {
+    .background (@background) when not (@background=~'') {
+        background: @background!important;
+    } .background (@background);    
+}
+    
+#@{id}.wcp-openweather-primary-color, #@{id} .wcp-openweather-primary-color {
+    .color (@color) when not (@color=~'') {
+        color: @color!important;
+    } .color (@color);        
+}

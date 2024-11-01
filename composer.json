@@ -1,0 +1,10 @@
+{
+    "require": {
+        "oyejorge/less.php": "1.7.0.10",
+        "DavidePastore/ipinfo": "*"
+    },
+    "scripts": {
+        "post-update-cmd": ["echo [WARNING] Delete all .git dirs", "rm -rf vendor/**/**/.git"],
+        "post-install-cmd": ["echo [WARNING] Delete all .git dirs", "rm -rf vendor/**/**/.git"]
+    }    
+}

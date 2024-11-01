@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Metro Theme"
+msgstr "Tema Metro"
+
+#: classes/widget/Weather.class.php:10
+msgid "Adds weather to sidebar"
+msgstr "Adaugă vreme la bara laterală"
+
+#: classes/widget/Weather.class.php:11
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:10
+msgid "Adds mini weather to sidebar"
+msgstr "Adaugă vreme mini la bara laterală"
+
+#: classes/widget/WeatherMini.class.php:11
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:43
+#: config/admin-options-fields.php:61 config/admin-options-fields.php:81
+msgid "Image"
+msgstr "Imagine"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:47
+#: templates/admin/constructor/fields/shortcodeImage.php:26
+#: templates/admin/options/fields/image.php:34
+msgid "Delete Image"
+msgstr "Sterge imagine"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:52
+#: templates/admin/constructor/fields/shortcodeImage.php:31
+#: templates/admin/options/fields/image.php:39
+msgid "Upload Image"
+msgstr "Incarca imagine"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:63
+#: config/admin-options-fields.php:18
+msgid "Text Color"
+msgstr "Culoare text"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:77
+#: config/admin-options-fields.php:28
+msgid "Background Color"
+msgstr "Culoare background"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:92
+#: config/admin-options-fields.php:38
+msgid "Background Opacity, %"
+msgstr "Opacitate background, %"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Setări globale"
+
+#: config/admin-options-fields.php:9
+msgid "Widget settings"
+msgstr "Setări widget"
+
+#: config/admin-options-fields.php:12
+msgid "Shortcode settings"
+msgstr "Setări shortcode"
+
+#: config/admin-options-fields.php:49 config/admin-options-fields.php:69
+msgid "Image Size"
+msgstr "Marime imagine"
+
+#: templates/admin/constructor/addon.php:9
+msgid "Theme Settings"
+msgstr "Setari tema"
+
+#: templates/admin/constructor/before-render.php:5
+msgid "Use default plugin settings"
+msgstr "Foloseste setarile default"
+
+#: templates/admin/options/fields/imagesize.php:23
+msgid "Width"
+msgstr "Latime"
+
+#: templates/admin/options/fields/imagesize.php:25
+msgid "Height"
+msgstr "Inaltime"
+
+#: templates/admin/options/fields/imagesize.php:29
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Taie imaginea la dimensiuni exacte"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Poti schimba tema curenta <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">aici</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Salveaza setari"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Reseteaza la default"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Hopa! Nimic nu a fost găsit!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:13
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:13
+#: templates/widget/wcp_weather_widget/default/now.php:21
+msgid "Wind"
+msgstr "Vant"
+
+#: templates/shortcode/wcp_weather/compact/now.php:19
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:19
+#: templates/widget/wcp_weather_widget/default/now.php:25
+msgid "Pressure"
+msgstr "Presiune"
+
+#: templates/shortcode/wcp_weather/compact/now.php:36
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:36
+#: templates/widget/wcp_weather_widget/default/now.php:31
+msgid "Humidity"
+msgstr "Umiditate"
+
+#: templates/shortcode/wcp_weather/compact/now.php:42
+#: templates/shortcode/wcp_weather/default/now.php:42
+#: templates/widget/wcp_weather_widget/default/now.php:35
+msgid "Clouds"
+msgstr "Innorat"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Zi"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Cond."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Temp."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Pres."
+
+#~ msgid "Default Theme"
+#~ msgstr "Tema default"

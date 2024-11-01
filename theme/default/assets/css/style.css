@@ -1,0 +1,330 @@
+/*--------------------------------------------------------------*/
+/*-- WCP OpenWeather CSS Document --*/
+/*-- Copyright (c) 2015. WebCodin --*/
+/*-- @author WebCodin --*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Font Face Including ---*/
+/*--------------------------------------------------------------*/
+
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [Roboto] :: Regular ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype'),
+         url('../fonts/roboto-regular.svg#Roboto-Regular') format('svg');
+}
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [Roboto] :: Bold ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/roboto-bold.eot');
+    src: url('../fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold.woff') format('woff'),
+         url('../fonts/roboto-bold.ttf') format('truetype'),
+         url('../fonts/roboto-bold.svg#Roboto-Bold') format('svg');
+}
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [Dosis] :: Bold ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'Dosis-Bold';
+    src: url('../fonts/dosis-bold.eot');
+    src: url('../fonts/dosis-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-bold.woff') format('woff'),
+         url('../fonts/dosis-bold.ttf') format('truetype'),
+         url('../fonts/dosis-bold.svg#Dosis-Bold') format('svg');
+}
+/*------------------------------------------------------*/
+/*--- WCP OpenWeather Font Family :: [WCP Icons Fonts] :: Icons ---*/
+/*------------------------------------------------------*/
+@font-face {
+    font-family: 'wcp-ow-icons';
+    src: url('../fonts/wcp-ow-icon.eot');
+    src: url('../fonts/wcp-ow-icon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wcp-ow-icon.woff') format('woff'),
+         url('../fonts/wcp-ow-icon.ttf') format('truetype'),
+         url('../fonts/wcp-ow-icon.svg#wcp-ow-icons') format('svg');
+}
+/*-----------------------------------------------------------------*/
+/*--- WCP OpenWeather Custom Fonts ---*/
+/*-----------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-value, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-temperature-wrapper .wcp-openweather-now-value { font-family: 'Dosis-Bold', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-city-wrapper .wcp-openweather-city, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-city-wrapper .wcp-openweather-city, .wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title, .wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-header th, .wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th span { font-family: 'Roboto-Bold', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content, .wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day .wcp-openweather-forecast-item-date, .wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day .wcp-openweather-forecast-item-date { font-family: 'Roboto-Regular', Arial, sans-serif; font-weight: normal !important; font-style: normal !important; }
+/*-----------------------------------------------------------------*/
+/*--- WCP OpenWeather Icons Fonts ---*/
+/*-----------------------------------------------------------------*/
+[class^="wcp-ow-icon-"], [class*=" wcp-ow-icon-"] { display: inline-block; font-family: 'wcp-ow-icons' !important; font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.wcp-ow-icon-arrow-down:before { content: "\f044"; }
+.wcp-ow-icon-refresh:before { content: "\f021"; }
+.wcp-ow-icon-cog:before { content: "\e602"; }
+.wcp-ow-icon-raindrop:before { content: "\2d"; }
+.wcp-ow-icon-wind:before { content: "\7c"; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-visible-xs { display: none; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Canvas Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget { font: 12px/14px 'Roboto-Regular', Arial, sans-serif; background: #cfd8dc; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; color: #263238; }
+.wcp-openweather-default-widget div, .wcp-openweather-default-widget span { font-family: 'Roboto-Regular', Arial, sans-serif; }
+.wcp-openweather-default-widget .wcp-openweather-container { padding: 0 15px; margin: 0; overflow: hidden; box-sizing: border-box; -webkit-box-sizing: border-box; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Header Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-header { margin: 0; padding: 0; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-header-wrapper { background: rgba(255,255,255,0.30); height: 24px; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-header-wrapper .wcp-openweather-container { padding-top: 5px; padding-bottom: 5px; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-day-wrapper { padding: 0 42px 0 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-day-wrapper .wcp-openweather-day { display: block; font-size: 12px; line-height: 14px; text-align: left; text-transform: uppercase; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options-wrapper { float: right; width: 40px; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options, .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh { float: right; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options-wrapper { position: relative; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options { padding-left: 9px; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon, .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon { color: #263238; display: block; width: 14px; height: 14px; font-size: 15px; line-height: 14px; outline: none; text-decoration: none; padding: 0; margin: 0; border: 0; background: none; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon:hover, .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon:hover { color: inherit; width: 14px; height: 14px; font-size: 15px; line-height: 14px; outline: none; text-decoration: none; padding: 0; margin: 0; border: 0; background: none; opacity: 0.7; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh { font-size: 15px; line-height: 14px; color: #263238; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh.fa-spin { -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 1s infinite linear; width: 13px; }
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { font-size: 18px; line-height: 14px; margin-left: -2px; color: #263238; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings { display: none; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Content Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-content { padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content > .wcp-openweather-container { padding-top: 14px; padding-bottom: 14px; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-city-wrapper { text-align: left; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-city-wrapper .wcp-openweather-city { font-size: 16px; line-height: 18px; text-transform: uppercase; hyphens: none; -moz-hyphens: none; -webkit-hyphens: none; -ms-hyphens: none; word-wrap: break-word; -moz-word-wrap: break-word; -webkit-word-wrap: break-word; -ms-word-wrap: break-word; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper { padding: 5px 0 0 0; margin: 0; width: 100%; overflow: hidden; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now, .wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details { float: left; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now { min-width: 120px; margin: 0; padding: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature { width: 100%; overflow: hidden; padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-value, .wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-icon { float: left; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-value { max-width: 110px; font-size: 50px; line-height: 50px; text-transform: uppercase; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-value .wcp-openweather-now-value-deg { position: relative; top: 1px !important; bottom: 0 !important; font-size: 30px; line-height: 0; height: 0; vertical-align: super; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-icon { height: 47px; margin: 2px 0 0; padding: 0; vertical-align: middle; width: 47px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-icon img { display: block; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; max-width: 100% !important; height: auto !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-status { font-size: 12px; line-height: 14px; margin-top: -2px; padding-bottom: 1px; text-align: left; max-width: 130px; display: block; text-transform: lowercase; }
+/*--------------------------------------------------------------*/ 
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details { float: right; width: 44%; text-align: right; padding: 4px 0 0 0; margin: 0; min-width: 107px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row { padding: 0 0 3px 0; margin: 0; overflow: hidden; width: 115%; float: right; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title { float: right; font-size: 18px; line-height: 15px !important; width: 17px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title.wcp-ow-icon-raindrop { font-size: 17px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title.wcp-ow-icon-arrow-down { font-size: 21px; padding-right: 1px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title.wcp-ow-icon-arrow-down .wcp-ow-icon-arrow-down { display: inline; font-size: 21px; line-height: 15px !important; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-value { float: right; padding-right: 3px; font-size: 12px; line-height: 13px; max-width: 82%; } 
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Forecast Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper { padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header { background: rgba(255,255,255,0.30); padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-container { padding-top: 4px; padding-bottom: 4px; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day { float: left; width: 20%; font-size: 11px; line-height: 11px; text-transform: uppercase; text-align: center; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day .wcp-openweather-forecast-item-date { display: block; font-size: 10px; line-height: 10px; text-align: center; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content { padding: 0 0 14px 0; margin: 0; /* background: rgba(0,0,0,0.05); */ }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item { float: left; width: 20%; padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-temperature { padding: 0; margin: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-icon { width: 40px; height: 40px; margin: 0 auto; padding: 0; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-icon img { display: block; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; max-width: 100% !important; height: auto !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-value { display: block; font-size: 10px; line-height: 10px; text-transform: uppercase; text-align: center; word-wrap: break-word; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-value .wcp-openweather-forecast-day-deg { position: relative; top: 4px !important; bottom: 0 !important; font-size: 11px; line-height: 0; height: 0; vertical-align: super; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget NoData Styles ---*/
+/*--------------------------------------------------------------*/ 
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-nodata-wrapper { padding: 18px 0 1px; margin: 0; text-align: left; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-nodata-wrapper:first-child { padding: 0 0 1px; }
+.wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-nodata-wrapper .wcp-openweather-nodata { font-size: 12px; line-height: 12px; margin: 0; padding: 0; text-transform: uppercase; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Mini Content Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-container { padding-left: 10px; padding-right: 10px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-city-wrapper { text-align: center; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-header-wrapper { height: 23px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-day-wrapper .wcp-openweather-day { font-size: 11px; line-height: 13px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-options { padding-left: 6px; } 
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon, .wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon { font-size: 14px; height: 13px; line-height: 14px; width: 13px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh { font-size: 14px; line-height: 14px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { font-size: 17px; line-height: 13px; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper { padding: 5px 0 0 0; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now { float: none; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now { width: 100%; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-value { float: none; display: block; max-width: 100%; text-align: center; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-temperature .wcp-openweather-now-icon { float: none; margin: 0 auto; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-now-wrapper .wcp-openweather-now-status { text-align: center; max-width: 100%; display: block; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Widget Mini Forecast Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl { margin: 0; padding: 0; border: 0; border-collapse: separate; border-spacing: 0; width: 100%; font: 11px/13px 'Roboto-Regular', Arial, sans-serif; color: #263238; table-layout: fixed; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-header { background: rgba(255,255,255,0.30); }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-header th { margin: 0; padding: 5px !important; border: 0; font-weight: normal !important; text-align: center !important; text-transform: uppercase; font-size: 11px; line-height: 14px; height: 14px; background: none; color: #263238; } 
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item { background: #b9b9b9; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td { margin: 0; padding: 4px !important; border: 0; font-weight: normal !important; text-align: center !important; font-size: 11px; line-height: 13px; vertical-align: middle; background: rgba(255,255,255,0.85); color: #263238; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item.wcp-openweather-forecast-item-light td { background: #fff; }
+
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-align, .wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-header th.wcp-openweather-forecast-item-align {  }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-icon { width: 35px; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-deg { position: relative; bottom: 0 !important; top: 4px !important; line-height: 0; height: 0; font-size: 12px; vertical-align: super; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td .wcp-openweather-forecast-item-day { font-size: 11px; display: block; text-transform: uppercase; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td .wcp-openweather-forecast-item-date { font-size: 10px; line-height: 12px; display: block; text-transform: uppercase; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-icon { width: 35px; height: 35px; margin: 0 auto; padding: 0; }
+.wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-content .wcp-openweather-forecast-tbl .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-icon img { display: block; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; max-width: 100% !important; height: auto !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode Canvas Styles ---*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode { font: 12px/14px 'Roboto-Regular', Arial, sans-serif; background: #cfd8dc; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; color: #263238; margin-bottom: 15px; }
+.wcp-openweather-default-shortcode div, .wcp-openweather-default-shortcode span { font-family: 'Roboto-Regular', Arial, sans-serif; }
+.wcp-openweather-default-shortcode .wcp-openweather-container { padding: 0 15px; overflow: hidden; box-sizing: border-box; -webkit-box-sizing: border-box; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode Header Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-header { padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-header-wrapper { background: rgba(255,255,255,0.30); height: 24px; padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-header-wrapper .wcp-openweather-container { padding-top: 5px; padding-bottom: 5px; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-day-wrapper { padding: 0 42px 0 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-day-wrapper .wcp-openweather-day { display: block; font-size: 12px; line-height: 14px; text-align: left; text-transform: uppercase; font-weight: normal !important; color: #263238; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options-wrapper { float: right; width: 40px; padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh { float: right; padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options-wrapper { position: relative; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options { padding-left: 9px; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-wrapper { padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon { color: #263238; display: block; width: 14px; height: 14px; font-size: 15px; line-height: 14px; outline: none; text-decoration: none; padding: 0; margin: 0; border: 0; background: none; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon:hover, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon:hover { color: inherit; width: 14px; height: 14px; font-size: 15px; line-height: 14px; outline: none; text-decoration: none; padding: 0; margin: 0; border: 0; background: none; opacity: 0.7; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh { font-size: 15px; line-height: 15px; color: #263238; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh.fa-spin { -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 1s infinite linear; width: 13px; }
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { font-size: 18px; line-height: 14px; margin-left: -2px; color: #263238; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings { display: none; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode Content Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-content { padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content > .wcp-openweather-container { padding-top: 15px; padding-bottom: 15px; margin: 0; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl { margin: 0 !important; padding: 0 !important; border: 0 !important; border-collapse: separate !important; border-spacing: 0 !important; width: 100% !important; font: 12px/13px 'Roboto-Regular', Arial, sans-serif; color: #263238; table-layout: fixed; background: none !important; text-shadow: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl tr { margin: 0; padding: 0 !important; border: 0 !important; background: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl td { margin: 0; padding: 0 !important; border: 0 !important; font-weight: normal !important; text-align: center !important; font-size: 12px; line-height: 13px; vertical-align: middle; background: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl td .wcp-openweather-city {vertical-align: middle; font-size: 16px; line-height: 18px; text-transform: uppercase; padding: 0; margin: 0; hyphens: none; -moz-hyphens: none; -webkit-hyphens: none; -ms-hyphens: none; word-wrap: break-word; -moz-word-wrap: break-word; -webkit-word-wrap: break-word; -ms-word-wrap: break-word; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl td.wcp-openweather-city-wrapper-forecast { width: 100%; text-align: left !important; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-icon-wrapper .wcp-openweather-now-icon { width: 50px; height: 50px; margin: 0 auto; padding: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-icon-wrapper .wcp-openweather-now-icon img { display: block !important; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; width: 50px !important; height: 50px !important; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-temperature-wrapper .wcp-openweather-now-value { display: block; font-size: 50px; line-height: 44px; text-transform: uppercase; padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-temperature-wrapper .wcp-openweather-now-value .wcp-openweather-now-value-deg { position: relative; bottom: 0 !important; top: 1px !important; font-size: 30px; line-height: 0; height: 0; vertical-align: super; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-status { display: block; text-transform: lowercase; font-size: 12px; line-height: 13px; padding: 0; margin: 0; }
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details { width: 100%; overflow: hidden; padding: 16px 0 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row { float: left; width: 33.45%; border-left: 2px solid transparent; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row:first-child { border-left: 0; width: 33.05%; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-row-content { background: rgba(255,255,255,0.30); padding: 5px 0; margin: 0; text-align: center; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title { display: block; text-transform: uppercase; font-size: 12px; line-height: 14px;color: #263238; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-value { font-size: 12px; line-height: 14px; color: #263238; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode Forecast Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-wrapper { margin: 0; padding: 0;}
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content { margin: 0 !important; padding: 0 !important; border: 0 !important; border-collapse: separate !important; border-spacing: 0 !important; width: 100% !important; font: 12px/14px 'Roboto-Regular', Arial, sans-serif; color: #263238; table-layout: auto; text-shadow: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header:hover, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content tr, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content tr:hover { background: none !important; } 
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th { background: rgba(255,255,255,0.30) !important; margin: 0; padding: 5px !important; border: 0; font-weight: normal !important; text-align: center !important; text-transform: uppercase; font-size: 11px !important; line-height: 14px; height: 14px; color: #263238; letter-spacing: 0; } 
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th span { font-size: 11px; line-height: 12px; margin: 0; padding: 0; } 
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item { background: #b9b9b9; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td { font-family: 'Roboto-Regular', Arial, sans-serif; margin: 0 !important; padding: 4px !important; border: 0 !important; font-weight: normal !important; text-align: center !important; font-size: 12px; line-height: 14px; vertical-align: middle; background: rgba(255,255,255,0.85); color: #263238; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item.wcp-openweather-forecast-item-light td { background: #fff; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td:first-child, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th:first-child { padding: 4px 4px 4px 15px !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td:last-child, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th:last-child, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-last, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th.wcp-openweather-forecast-item-last { padding: 4px 15px 4px 4px !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-align, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th.wcp-openweather-forecast-item-align { text-align: left !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-deg { position: relative; bottom: 0 !important; top: 4px !important; line-height: 0; height: 0; font-size: 12px; vertical-align: super; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-conditions, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th.wcp-openweather-forecast-item-conditions { padding: 0 4px !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-item-day { font-size: 12px; display: block; text-transform: uppercase; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-item-date { font-size: 10px; line-height: 12px; display: block; text-transform: uppercase; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-icon { margin: 0 auto; width: 40px; height: 40px; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-icon img { display: block; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; max-width: 100% !important; height: auto; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-status { line-height: 12px; font-size: 12px; text-transform: lowercase; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode Compact Forecast Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper { padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header { background: rgba(255,255,255,0.30); padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-container { padding-top: 4px; padding-bottom: 4px; margin: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day { float: left; width: 20%; font-size: 12px; line-height: 12px; text-transform: uppercase; text-align: center; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-header .wcp-openweather-forecast-day .wcp-openweather-forecast-item-date { display: block; font-size: 11px; line-height: 12px; text-align: center; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content { padding: 0 0 14px 0 !important; margin: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item { float: left; width: 20%; padding: 0; margin: 0; background: transparent; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-temperature { padding: 0; margin: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-icon { width: 40px; height: 40px; margin: 0 auto; padding: 0; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-icon img { display: block; background: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; max-width: 100% !important; height: auto; border-radius: 0 !important; -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-value { display: block; font-size: 12px; line-height: 11px; text-transform: uppercase; text-align: center; word-wrap: break-word; }
+.wcp-openweather-default-shortcode.wcp-openweather-default-compact .wcp-openweather-content .wcp-openweather-forecast-wrapper .wcp-openweather-forecast-content .wcp-openweather-forecast-item .wcp-openweather-forecast-day-value .wcp-openweather-forecast-day-deg { position: relative; top: 4px !important; bottom: 0 !important; font-size: 11px; line-height: 0; height: 0; vertical-align: super; } 
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Shortcode NoData Styles ---*/
+/*--------------------------------------------------------------*/ 
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-nodata-wrapper { margin: 0; padding: 0; }
+.wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-nodata-wrapper .wcp-openweather-nodata { display: block; padding: 0; margin: 0; text-transform: uppercase; text-align: left; line-height: 12px; font-size: 12px; }
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Spinner Rotate Styles ---*/
+/*--------------------------------------------------------------*/
+@-webkit-keyframes fa-spin { 
+    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); transform: rotate(359deg); }
+}
+@keyframes fa-spin {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); transform: rotate(359deg); }
+}
+/*--------------------------------------------------------------*/
+/*--- WCP OpenWeather Chrome Correct Icon Styles ---*/
+/*--------------------------------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh, .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh { line-height: 15px; }
+    .wcp-openweather-default-widget.wcp-openweather-default-mini .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon .wcp-ow-icon-refresh { line-height: 14px; }
+}
+/*-----------------------------------------------------------------*/                               
+/*--- Media Queries Styles ---*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 767px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 767px) { 
+    .wcp-openweather-hidden-xs { display: none; }
+    .wcp-openweather-visible-xs { display: block; }
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-temperature-wrapper .wcp-openweather-now-value { font-size: 43px; line-height: 40px; }
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl .wcp-openweather-now-temperature-wrapper .wcp-openweather-now-value .wcp-openweather-now-value-deg {font-size: 28px; top: 4px !important;} 
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-content-tbl td .wcp-openweather-city { font-size: 14px; line-height: 16px; } 
+    .wcp-openweather-default-widget .wcp-openweather-content .wcp-openweather-city-wrapper .wcp-openweather-city { font-size: 15px; line-height: 17px; } 
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-title, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-value { font-size: 11px; }     
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-status { display: none !important; }
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-hidden-xs, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content th.wcp-openweather-forecast-item-hidden-xs { display: none !important; }    
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td.wcp-openweather-forecast-item-icon { padding: 4px 4px 4px 0 !important; }
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td .wcp-openweather-forecast-day-icon { float: none; margin: 0 auto; } 
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-item td:first-child, .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-forecast-content .wcp-openweather-forecast-header th:first-child { width: 37px; }
+    /*-----------------------------------------------------------------*/
+    .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon:hover, .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon:hover, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon:hover, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-refresh .wcp-openweather-refresh-icon:hover { opacity: 1; }
+}  
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 480px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 480px) { 
+    .wcp-openweather-default-shortcode .wcp-openweather-content .wcp-openweather-now-details .wcp-openweather-now-details-row .wcp-openweather-now-details-value { display: block; line-height: 14px; max-height: 14px; overflow: hidden; }  
+} 
+/*-----------------------------------------------------------------*/
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { line-height: 16px; }
+}
+/*-----------------------------------------------------------------*/
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { line-height: 16px; }
+}
+/*-----------------------------------------------------------------*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .wcp-openweather-default-widget .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog, .wcp-openweather-default-shortcode .wcp-openweather-header .wcp-openweather-options .wcp-openweather-settings-icon .wcp-ow-icon-cog { line-height: 16px; }
+}
+

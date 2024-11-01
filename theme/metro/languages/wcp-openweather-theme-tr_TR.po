@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Metro Theme"
+msgstr "Metro Tema"
+
+#: classes/widget/Weather.class.php:10
+msgid "Adds weather to sidebar"
+msgstr "Sidebar'a Ekle"
+
+#: classes/widget/Weather.class.php:11
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:10
+msgid "Adds mini weather to sidebar"
+msgstr "Sidebar'a Ekle (Mini versiyon)"
+
+#: classes/widget/WeatherMini.class.php:11
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:43
+#: config/admin-options-fields.php:61 config/admin-options-fields.php:81
+msgid "Image"
+msgstr "Resim"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:47
+#: templates/admin/constructor/fields/shortcodeImage.php:26
+#: templates/admin/options/fields/image.php:34
+msgid "Delete Image"
+msgstr "Bu resmi sil"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:52
+#: templates/admin/constructor/fields/shortcodeImage.php:31
+#: templates/admin/options/fields/image.php:39
+msgid "Upload Image"
+msgstr "Resim Yükle"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:63
+#: config/admin-options-fields.php:18
+msgid "Text Color"
+msgstr "Metin Rengi"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:77
+#: config/admin-options-fields.php:28
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:92
+#: config/admin-options-fields.php:38
+msgid "Background Opacity, %"
+msgstr "Arkaplan Saydamlığı, %"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Genel Ayarlar"
+
+#: config/admin-options-fields.php:9
+msgid "Widget settings"
+msgstr "Widget ayarları"
+
+#: config/admin-options-fields.php:12
+msgid "Shortcode settings"
+msgstr "Shortcode Ayarları"
+
+#: config/admin-options-fields.php:49 config/admin-options-fields.php:69
+msgid "Image Size"
+msgstr "Resim boyutu"
+
+#: templates/admin/constructor/addon.php:9
+msgid "Theme Settings"
+msgstr "Tema Ayarları"
+
+#: templates/admin/constructor/before-render.php:5
+msgid "Use default plugin settings"
+msgstr "Varsayılan eklenti ayarları kullanın"
+
+#: templates/admin/options/fields/imagesize.php:23
+msgid "Width"
+msgstr "Genişlik"
+
+#: templates/admin/options/fields/imagesize.php:25
+msgid "Height"
+msgstr "Yükseklik"
+
+#: templates/admin/options/fields/imagesize.php:29
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Küçük-resim boyutlar"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Geçerli değiştirmek için <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">tıklayın</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Varsayılana sıfırla"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Ooops! Hiçbir şey bulunamadı!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:13
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:13
+#: templates/widget/wcp_weather_widget/default/now.php:21
+msgid "Wind"
+msgstr "Rüzgar"
+
+#: templates/shortcode/wcp_weather/compact/now.php:19
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:19
+#: templates/widget/wcp_weather_widget/default/now.php:25
+msgid "Pressure"
+msgstr "Basınç"
+
+#: templates/shortcode/wcp_weather/compact/now.php:36
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:36
+#: templates/widget/wcp_weather_widget/default/now.php:31
+msgid "Humidity"
+msgstr "Nem"
+
+#: templates/shortcode/wcp_weather/compact/now.php:42
+#: templates/shortcode/wcp_weather/default/now.php:42
+#: templates/widget/wcp_weather_widget/default/now.php:35
+msgid "Clouds"
+msgstr "Bulut"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Gün"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Durum"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Sıcaklık"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Basınç"

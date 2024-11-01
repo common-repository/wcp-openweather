@@ -1,0 +1,29 @@
+@id : '';
+@background_image : '';
+@background_opacity : '';
+@background_color : '';
+@text_color : '';
+
+#@{id}.wcp-openweather-primary-background {
+    .background_image (@background_image) when not (@background_image=~'') {
+        background-image: @background_image!important;
+    } .background_image (@background_image);
+}
+
+#@{id}.wcp-openweather-primary-color, #@{id} .wcp-openweather-primary-color {
+    .text_color (@text_color) when not (@text_color=~'') {
+        color: @text_color!important;
+    } .text_color (@text_color);    
+}
+
+#@{id} .wcp-openweather-primary-background-color {
+    .background_color (@background_color) when not (@background_color=~'') {
+        background-color: @background_color!important;
+    } .background_color (@background_color);        
+}
+
+#@{id} .wcp-openweather-primary-background-opacity {
+    .background_opacity (@background_opacity) when not (@background_opacity=~'') {
+        opacity: @background_opacity!important;
+    } .background_opacity (@background_opacity);            
+}

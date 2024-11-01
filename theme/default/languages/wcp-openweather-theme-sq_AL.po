@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: sq_AL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Default Theme"
+msgstr "Lëkura kryesore"
+
+#: classes/widget/Weather.class.php:12
+msgid "Adds weather to sidebar"
+msgstr "Shtoni motin në kornizën anësore"
+
+#: classes/widget/Weather.class.php:13
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:12
+msgid "Adds mini weather to sidebar"
+msgstr "Shtoni mini motin në kornizën anësore"
+
+#: classes/widget/WeatherMini.class.php:13
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "Parametrat global"
+
+#: config/admin-options-fields.php:12
+msgid "Background Color"
+msgstr "Ngjyra e sfondit"
+
+#: config/admin-options-fields.php:22
+msgid "Text Color"
+msgstr "Ngjyra e tekstit"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"Ju mund ta ndryshoni lëkurën e tanishme <a href=\"/wp-admin/admin.php?"
+"page=wcp-weather&tab=plugin-settings\">këtu</a>."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "Ruajini ndryshimet"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "Rikthejeni në gjëndjen fillestare"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "Upps! Nuk u gjend asnjë!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:26
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:26
+msgid "Wind"
+msgstr "Era"
+
+#: templates/shortcode/wcp_weather/compact/now.php:32
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:32
+msgid "Humidity"
+msgstr "Lagështia"
+
+#: templates/shortcode/wcp_weather/compact/now.php:38
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:38
+msgid "Pressure"
+msgstr "Presioni"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "Dita"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "Kush."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "Temp."
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "Pres."
+
+#~ msgid "Title"
+#~ msgstr "Titulli"
+
+#~ msgid "Template"
+#~ msgstr "Rigë"
+
+#~ msgid "Show current weather"
+#~ msgstr "Tregoni parashikimin e motit të tanishëm"
+
+#~ msgid "Show 5 day forecast"
+#~ msgstr "Tregoni parashikimin e motit për 5 ditë"
+
+#~ msgid "City"
+#~ msgstr "Qyteti"
+
+#~ msgid ""
+#~ "You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+#~ "title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+#~ "openweathermap.com</a>."
+#~ msgstr ""
+#~ "Ju mund ta gjeni qytetin tuaj në  <a href=\"http://www.openweathermap.com/"
+#~ "\" title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+#~ "openweathermap.com</a>."
+
+#~ msgid "Temperature"
+#~ msgstr "Temperatura"
+
+#~ msgid "Wind Speed"
+#~ msgstr "Shpejtësia e erës"
+
+#~ msgid "Enable user settings"
+#~ msgstr "Aktivizoni alternativat e përdoruesit"
+
+#~ msgid "Hide description of the weather conditions"
+#~ msgstr "Fshihni përshkrimin e kushteve të motit"
+
+#~ msgid "Default"
+#~ msgstr "Mospagim"

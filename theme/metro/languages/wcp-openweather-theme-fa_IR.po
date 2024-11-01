@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather-theme\n"
+"POT-Creation-Date: 2016-11-09 11:54+0200\n"
+"PO-Revision-Date: 2016-11-09 11:54+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Morteza <rajabzademorteza@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;"
+"_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/Theme.class.php:42
+msgid "Metro Theme"
+msgstr "پوسته مترو"
+
+#: classes/widget/Weather.class.php:10
+msgid "Adds weather to sidebar"
+msgstr "آب و هوا را به نوار کناری اضافه می کند"
+
+#: classes/widget/Weather.class.php:11
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: classes/widget/WeatherMini.class.php:10
+msgid "Adds mini weather to sidebar"
+msgstr "آب و هوای کوچک را به نوار کناری اضافه می کند"
+
+#: classes/widget/WeatherMini.class.php:11
+msgid "WCP Weather Mini"
+msgstr "WCP Weather Mini"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:43
+#: config/admin-options-fields.php:61 config/admin-options-fields.php:81
+msgid "Image"
+msgstr "تصویر"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:47
+#: templates/admin/constructor/fields/shortcodeImage.php:26
+#: templates/admin/options/fields/image.php:34
+msgid "Delete Image"
+msgstr "حذف تصویر"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:52
+#: templates/admin/constructor/fields/shortcodeImage.php:31
+#: templates/admin/options/fields/image.php:39
+msgid "Upload Image"
+msgstr "بارگذاری تصویر"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:63
+#: config/admin-options-fields.php:18
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:77
+#: config/admin-options-fields.php:28
+msgid "Background Color"
+msgstr "رنگ زمینه"
+
+#: classes/widget/abstract/ThemeWeatherWidget.class.php:92
+#: config/admin-options-fields.php:38
+msgid "Background Opacity, %"
+msgstr "شفافیت پس زمینه، %"
+
+#: config/admin-options-fields.php:6
+msgid "Global settings"
+msgstr "تنظیمات کلی"
+
+#: config/admin-options-fields.php:9
+msgid "Widget settings"
+msgstr "تنظیمات ابزارک"
+
+#: config/admin-options-fields.php:12
+msgid "Shortcode settings"
+msgstr "تنظیمات شورتکد"
+
+#: config/admin-options-fields.php:49 config/admin-options-fields.php:69
+msgid "Image Size"
+msgstr "اندازه‌ی تصویر"
+
+#: templates/admin/constructor/addon.php:9
+msgid "Theme Settings"
+msgstr "تنظیمات پوسته"
+
+#: templates/admin/constructor/before-render.php:5
+msgid "Use default plugin settings"
+msgstr "استفاده از تنظیمات پیشفرض افزونه"
+
+#: templates/admin/options/fields/imagesize.php:23
+msgid "Width"
+msgstr "پهنا"
+
+#: templates/admin/options/fields/imagesize.php:25
+msgid "Height"
+msgstr "ارتفاع"
+
+#: templates/admin/options/fields/imagesize.php:29
+msgid "Crop thumbnail to exact dimensions"
+msgstr "بریدن تصویرک با اندازه‌های دقیق"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"You can change current theme <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">here</a>."
+msgstr ""
+"شما می توانید پوسته فعلی را در <a href=\"/wp-admin/admin.php?page=wcp-"
+"weather&tab=plugin-settings\">اینجا</a> تغییر دهید."
+
+#: templates/admin/options/layout.php:43
+msgid "Save Changes"
+msgstr "ذخیره‌ی تغییرات"
+
+#: templates/admin/options/layout.php:44
+msgid "Reset to Default"
+msgstr "بازگردانی به حالت اولیه"
+
+#: templates/shortcode/wcp_weather/compact/nodata.php:5
+#: templates/shortcode/wcp_weather/default/nodata.php:5
+#: templates/widget/wcp_weather_mini_widget/default/nodata.php:5
+#: templates/widget/wcp_weather_widget/compact/nodata.php:5
+#: templates/widget/wcp_weather_widget/default/nodata.php:5
+msgid "Ooops! Nothing was found!"
+msgstr "متأسفیم! چیزی پیدا شد!"
+
+#: templates/shortcode/wcp_weather/compact/now.php:13
+#: templates/shortcode/wcp_weather/default/forecast.php:14
+#: templates/shortcode/wcp_weather/default/now.php:13
+#: templates/widget/wcp_weather_widget/default/now.php:21
+msgid "Wind"
+msgstr "باد"
+
+#: templates/shortcode/wcp_weather/compact/now.php:19
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+#: templates/shortcode/wcp_weather/default/now.php:19
+#: templates/widget/wcp_weather_widget/default/now.php:25
+msgid "Pressure"
+msgstr "فشار"
+
+#: templates/shortcode/wcp_weather/compact/now.php:36
+#: templates/shortcode/wcp_weather/default/forecast.php:15
+#: templates/shortcode/wcp_weather/default/now.php:36
+#: templates/widget/wcp_weather_widget/default/now.php:31
+msgid "Humidity"
+msgstr "رطوبت"
+
+#: templates/shortcode/wcp_weather/compact/now.php:42
+#: templates/shortcode/wcp_weather/default/now.php:42
+#: templates/widget/wcp_weather_widget/default/now.php:35
+msgid "Clouds"
+msgstr "ابرها"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:11
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:11
+msgid "Day"
+msgstr "روز"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:12
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:12
+msgid "Cond."
+msgstr "وضعیت"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:13
+#: templates/widget/wcp_weather_mini_widget/default/forecast.php:13
+msgid "Temp."
+msgstr "دما"
+
+#: templates/shortcode/wcp_weather/default/forecast.php:16
+msgid "Pres."
+msgstr "فشار"

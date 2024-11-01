@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: assets\n"
+"X-Poedit-SearchPath-1: classes\n"
+"X-Poedit-SearchPath-2: config\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: classes/RPw.class.php:223
+msgid "Add new WCP OpenWeather shortcode"
+msgstr "Dodaj novo WCP OpenWeather kodo"
+
+#: classes/RPw.class.php:558
+msgid ""
+"Google API key is required. Please, enter valid Google API Key in the \"API"
+"\" tab."
+msgstr ""
+
+#: classes/Settings.class.php:110
+msgid "Auto Detect"
+msgstr "Samodejno zaznaj"
+
+#: classes/Settings.class.php:118
+msgid "Default"
+msgstr "Privzeto"
+
+#: classes/persistence/Convertor.class.php:104
+#: classes/persistence/Convertor.class.php:120
+msgid "N"
+msgstr "N"
+
+#: classes/persistence/Convertor.class.php:105
+msgid "NNE"
+msgstr "NNE"
+
+#: classes/persistence/Convertor.class.php:106
+msgid "NE"
+msgstr "NE"
+
+#: classes/persistence/Convertor.class.php:107
+msgid "ENE"
+msgstr "ENE"
+
+#: classes/persistence/Convertor.class.php:108
+msgid "E"
+msgstr "E"
+
+#: classes/persistence/Convertor.class.php:109
+msgid "ESE"
+msgstr "ESE"
+
+#: classes/persistence/Convertor.class.php:110
+msgid "SE"
+msgstr "SE"
+
+#: classes/persistence/Convertor.class.php:111
+msgid "SSE"
+msgstr "SSE"
+
+#: classes/persistence/Convertor.class.php:112
+msgid "S"
+msgstr "S"
+
+#: classes/persistence/Convertor.class.php:113
+msgid "SSW"
+msgstr "SSW"
+
+#: classes/persistence/Convertor.class.php:114
+msgid "SW"
+msgstr "SW"
+
+#: classes/persistence/Convertor.class.php:115
+msgid "WSW"
+msgstr "WSW"
+
+#: classes/persistence/Convertor.class.php:116
+msgid "W"
+msgstr "W"
+
+#: classes/persistence/Convertor.class.php:117
+msgid "WNW"
+msgstr "WNW"
+
+#: classes/persistence/Convertor.class.php:118
+msgid "NW"
+msgstr "NW"
+
+#: classes/persistence/Convertor.class.php:119
+msgid "NNW"
+msgstr "NNW"
+
+#: classes/theme/ThemeEntity.class.php:148
+msgid "Theme Settings"
+msgstr "Nastavitve teme"
+
+#: classes/theme/ThemeEntity.class.php:162
+msgid "Select"
+msgstr "Izberi"
+
+#: classes/theme/ThemeEntity.class.php:163
+msgid "Upload Image"
+msgstr "Naloži sliko"
+
+#: classes/theme/ThemeSettings.class.php:114
+msgid "Settings reset to default values"
+msgstr "Ponastavi nastavitve na privzete vrednosti"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:117
+msgid "Title"
+msgstr "Naslov"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:126
+#: config/admin-options-fields.php:69
+msgid "Template"
+msgstr "Predloga"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:143
+#: config/admin-options-fields.php:77
+msgid "Show current weather"
+msgstr "Prikaži trenutno vreme"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:150
+#: config/admin-options-fields.php:84
+msgid "Show 5 day forecast"
+msgstr "Prikaži 5 dnevno napoved"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:156
+#: config/admin-options-fields.php:27
+msgid "City Name"
+msgstr "Mesto"
+
+# You can find you city name on www.openweathermap.com.
+#: classes/widget/WeatherWidgetAbstract.class.php:158
+#: config/admin-options-fields.php:33
+msgid ""
+"You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+msgstr ""
+"Svoje mesto lahko najdete na <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+
+#: classes/widget/WeatherWidgetAbstract.class.php:174
+#: config/admin-options-fields.php:45
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:193
+#: config/admin-options-fields.php:53
+msgid "Wind Speed"
+msgstr "Hitrost vetra"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:212
+#: config/admin-options-fields.php:61
+msgid "Pressure"
+msgstr "Pritisk"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:228
+msgid "Enable user options"
+msgstr "Omogoči uporabniške možnosti"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:235
+msgid "Hide description of the weather conditions"
+msgstr "Skrij opis vremenskih pogojev"
+
+#: config/admin-menu.php:5 config/admin-menu.php:6
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: config/admin-menu.php:14 config/admin-menu.php:15
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: config/admin-options-fields.php:6
+msgid "Location"
+msgstr "Lokacija"
+
+#: config/admin-options-fields.php:9
+msgid "Units"
+msgstr "Enote"
+
+#: config/admin-options-fields.php:13
+msgid "Display Options"
+msgstr "Prikaži možnosti"
+
+#: config/admin-options-fields.php:94
+msgid "General"
+msgstr "Osnovno"
+
+#: config/admin-options-fields.php:97
+msgid "User Options"
+msgstr "Uporabniške možnosti"
+
+#: config/admin-options-fields.php:100
+msgid "Other"
+msgstr "Drugo"
+
+#: config/admin-options-fields.php:106
+msgid "Language"
+msgstr "Jezik"
+
+#: config/admin-options-fields.php:115
+msgid "Current Theme"
+msgstr "Trenutna tema"
+
+#: config/admin-options-fields.php:124
+msgid "Refresh Time"
+msgstr "Osveži čas"
+
+#: config/admin-options-fields.php:131
+msgid "Hide Description of the Weather Conditions"
+msgstr "Skrij opis vremenskih pogojev"
+
+#: config/admin-options-fields.php:138
+msgid "\"No Data\" Message"
+msgstr "Sporočilo ''Brez podatkov''"
+
+#: config/admin-options-fields.php:146
+msgid "Enable \"Google Maps API\""
+msgstr "Omogoči \"Google Maps API\""
+
+#: config/admin-options-fields.php:153
+msgid "Enable User Options"
+msgstr "Omogoči uporabniške možnosti"
+
+#: config/admin-options-fields.php:160
+msgid "Expire User Options (days)"
+msgstr "Uporabniške možnosti so pretekle (dni)"
+
+#: config/admin-options-fields.php:175 templates/user/options/layout.php:12
+msgid "Options"
+msgstr "Možnosti"
+
+#: config/admin-options-fields.php:180
+msgid "API key"
+msgstr "API ključ"
+
+# How to get API key you can see here.
+#: config/admin-options-fields.php:185
+msgid ""
+"How to get API key you can see <a href=\"http://openweathermap.org/appid\" "
+"title=\"http://openweathermap.org/appid\" target=\"_blank\">here</a>."
+msgstr ""
+"Kako pridobite API ključ si poglejte <a href=\"http://openweathermap.org/"
+"appid\" title=\"http://openweathermap.org/appid\" target=\"_blank\">tukaj</"
+"a>."
+
+#: config/admin-options-fields.php:188
+msgid "Google API key"
+msgstr "Google API ključ"
+
+#: config/admin-options-fields.php:193
+msgid ""
+"How to get Google API key you can see <a href=\"https://developers.google."
+"com/maps/documentation/javascript/get-api-key\" title=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Kako pridobite Google API ključ si poglejte <a href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" title=\"https://"
+"developers.google.com/maps/documentation/javascript/get-api-key\" target="
+"\"_blank\">tukaj</a>."
+
+#: config/admin-options-fieldset.php:4
+msgid "&deg;C"
+msgstr "&deg;C"
+
+#: config/admin-options-fieldset.php:5
+msgid "&deg;F"
+msgstr "&deg;F"
+
+#: config/admin-options-fieldset.php:8
+msgid "mph"
+msgstr "mph"
+
+#: config/admin-options-fieldset.php:9
+msgid "km/h"
+msgstr "km/h"
+
+#: config/admin-options-fieldset.php:10
+msgid "m/s"
+msgstr "m/s"
+
+#: config/admin-options-fieldset.php:11
+msgid "Knots"
+msgstr "Vozlov"
+
+#: config/admin-options-fieldset.php:14
+msgid "atm"
+msgstr "atm"
+
+#: config/admin-options-fieldset.php:15
+msgid "bar"
+msgstr "bar"
+
+#: config/admin-options-fieldset.php:16
+msgid "hPa"
+msgstr "hPa"
+
+#: config/admin-options-fieldset.php:17
+msgid "kgf/cm²"
+msgstr "kgf/cm²"
+
+#: config/admin-options-fieldset.php:18
+msgid "kgf/m²"
+msgstr "kgf/m²"
+
+#: config/admin-options-fieldset.php:19
+msgid "kPa"
+msgstr "kPa"
+
+#: config/admin-options-fieldset.php:20
+msgid "mbar"
+msgstr "mbar"
+
+#: config/admin-options-fieldset.php:21
+msgid "mmHg"
+msgstr "mmHg"
+
+#: config/admin-options-fieldset.php:22
+msgid "inHg"
+msgstr "inHg"
+
+#: config/admin-options-fieldset.php:23
+msgid "Pa"
+msgstr "Pa"
+
+#: config/admin-options-fieldset.php:24
+msgid "psf"
+msgstr "psf"
+
+#: config/admin-options-fieldset.php:25
+msgid "psi"
+msgstr "psi"
+
+#: config/admin-options-fieldset.php:26
+msgid "torr"
+msgstr "torr"
+
+#: config/admin-options-fieldset.php:29
+msgid "Always"
+msgstr "Vedno"
+
+#: config/admin-options-fieldset.php:30
+msgid "0.5h - Not Recommended"
+msgstr "0.5h - Ni priporočljivo"
+
+#: config/admin-options-fieldset.php:31
+msgid "1h - Recommended"
+msgstr "1h - Priporočljivo"
+
+#: config/admin-options-fieldset.php:32
+msgid "2h"
+msgstr "2h"
+
+#: config/admin-options-fieldset.php:33
+msgid "3h"
+msgstr "3h"
+
+#: config/admin-options-fieldset.php:34
+msgid "6h"
+msgstr "6h"
+
+#: config/admin-options-fieldset.php:35
+msgid "9h"
+msgstr "9h"
+
+#: config/admin-options-fieldset.php:36
+msgid "12h"
+msgstr "12h"
+
+#: config/admin-options-fieldset.php:37
+msgid "24h"
+msgstr "24h"
+
+#: config/admin-options-fieldset.php:70
+msgid "mon"
+msgstr "pon"
+
+#: config/admin-options-fieldset.php:71
+msgid "tue"
+msgstr "tor"
+
+#: config/admin-options-fieldset.php:72
+msgid "wed"
+msgstr "sre"
+
+#: config/admin-options-fieldset.php:73
+msgid "thu"
+msgstr "čet"
+
+#: config/admin-options-fieldset.php:74
+msgid "fri"
+msgstr "pet"
+
+#: config/admin-options-fieldset.php:75
+msgid "sat"
+msgstr "sob"
+
+#: config/admin-options-fieldset.php:76
+msgid "sun"
+msgstr "ned"
+
+#: config/admin-options-fieldset.php:79
+msgid "jan"
+msgstr "jan"
+
+#: config/admin-options-fieldset.php:80
+msgid "feb"
+msgstr "feb"
+
+#: config/admin-options-fieldset.php:81
+msgid "mar"
+msgstr "mar"
+
+#: config/admin-options-fieldset.php:82
+msgid "apr"
+msgstr "apr"
+
+#: config/admin-options-fieldset.php:83
+msgid "may"
+msgstr "maj"
+
+#: config/admin-options-fieldset.php:84
+msgid "jun"
+msgstr "jun"
+
+#: config/admin-options-fieldset.php:85
+msgid "jul"
+msgstr "jul"
+
+#: config/admin-options-fieldset.php:86
+msgid "aug"
+msgstr "avg"
+
+#: config/admin-options-fieldset.php:87
+msgid "sep"
+msgstr "sep"
+
+#: config/admin-options-fieldset.php:88
+msgid "oct"
+msgstr "okt"
+
+#: config/admin-options-fieldset.php:89
+msgid "nov"
+msgstr "nov"
+
+#: config/admin-options-fieldset.php:90
+msgid "dec"
+msgstr "dec"
+
+#: config/admin-options-tabs.php:4
+msgid "Weather"
+msgstr "Vreme"
+
+#: config/admin-options-tabs.php:7
+msgid "Plugin"
+msgstr "Vtičnik"
+
+#: config/admin-options-tabs.php:10
+msgid "API"
+msgstr "API"
+
+#: templates/admin/constructor/layout.php:12
+msgid "WCP OpenWeather Shortcode"
+msgstr "WCP OpenWeather koda"
+
+#: templates/admin/constructor/layout.php:27
+msgid "Add"
+msgstr "Dodaj"
+
+#: templates/admin/options/fields/lang.php:46
+msgid "Not supported in the current theme"
+msgstr "Nepodporto v tej temi"
+
+#: templates/admin/options/layout-headline-links.php:3
+msgid "Useful Links"
+msgstr "Uporabne povezave"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Live Demo"
+msgstr "Predstavitev v živo"
+
+#: templates/admin/options/layout-headline-links.php:6
+msgid "FAQ"
+msgstr "Pogosta vprašanja"
+
+#: templates/admin/options/layout-headline-links.php:7
+msgid "Support Form"
+msgstr "Podpora Form"
+
+#: templates/admin/options/layout-headline-links.php:8
+msgid "Help with Translation"
+msgstr "Pomoč pri prevajanju"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+msgstr ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+
+#: templates/admin/options/layout.php:23
+msgid ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+msgstr ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+
+#: templates/admin/options/layout.php:45
+msgid "Save Changes"
+msgstr "Shrani spremembe"
+
+#: templates/admin/options/layout.php:46 templates/user/options/layout.php:21
+msgid "Reset to Default"
+msgstr "Ponastavi na privzeto"
+
+#: templates/user/options/layout.php:20
+msgid "Save & Refresh"
+msgstr "Shrani & osveži"
+
+# More information about the plugin you can find on the plugin page in the FAQ and Screenshots sections. Live demo you can find on our site.
+#~ msgid ""
+#~ "More information about the plugin you can find on the <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">plugin page</a> in the <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> "
+#~ "and <a href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/"
+#~ "\" target=\"_blank\" title=\"Screenshots\">Screenshots</a> sections. "
+#~ "<strong>Live demo</strong> you can find on <a href=\"http://wpdemo."
+#~ "webcodin.com/weather-forecast/\" target=\"_blank\" title=\"Live Demo"
+#~ "\">our site</a>."
+#~ msgstr ""
+#~ "Več informacij o <a href=\"https://wordpress.org/plugins/wcp-openweather/"
+#~ "\" target=\"_blank\" title=\"wordpress.org\">vtičniku</a> lahko najdete "
+#~ "na tej strani pod sekcijo <a href=\"https://wordpress.org/plugins/wcp-"
+#~ "openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> in <a href="
+#~ "\"https://wordpress.org/plugins/wcp-openweather/screenshots/\" target="
+#~ "\"_blank\" title=\"Screenshots\">Screenshots</a>. Demo verzijo najdete na "
+#~ "<a href=\"http://wpdemo.webcodin.com/weather-forecast/\" target=\"_blank"
+#~ "\" title=\"Demo verzijo\">naši strani</a>."

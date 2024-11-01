@@ -1,0 +1,624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcp-openweather\n"
+"POT-Creation-Date: 2016-11-09 11:53+0200\n"
+"PO-Revision-Date: 2016-11-09 11:53+0200\n"
+"Last-Translator: - <->\n"
+"Language-Team: Webcodin <info@webcodin.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: assets\n"
+"X-Poedit-SearchPath-1: classes\n"
+"X-Poedit-SearchPath-2: config\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: classes/RPw.class.php:223
+msgid "Add new WCP OpenWeather shortcode"
+msgstr "Добавить новый шорткод WCP OpenWeather "
+
+#: classes/RPw.class.php:558
+msgid ""
+"Google API key is required. Please, enter valid Google API Key in the \"API"
+"\" tab."
+msgstr ""
+
+#: classes/Settings.class.php:110
+msgid "Auto Detect"
+msgstr "Автоматическое определение"
+
+#: classes/Settings.class.php:118
+msgid "Default"
+msgstr "По умолчанию"
+
+#: classes/persistence/Convertor.class.php:104
+#: classes/persistence/Convertor.class.php:120
+msgid "N"
+msgstr "С"
+
+#: classes/persistence/Convertor.class.php:105
+msgid "NNE"
+msgstr "ССВ"
+
+#: classes/persistence/Convertor.class.php:106
+msgid "NE"
+msgstr "СВ"
+
+#: classes/persistence/Convertor.class.php:107
+msgid "ENE"
+msgstr "ВСВ"
+
+#: classes/persistence/Convertor.class.php:108
+msgid "E"
+msgstr "В"
+
+#: classes/persistence/Convertor.class.php:109
+msgid "ESE"
+msgstr "ВЮВ"
+
+#: classes/persistence/Convertor.class.php:110
+msgid "SE"
+msgstr "ЮВ"
+
+#: classes/persistence/Convertor.class.php:111
+msgid "SSE"
+msgstr "ЮЮВ"
+
+#: classes/persistence/Convertor.class.php:112
+msgid "S"
+msgstr "Ю"
+
+#: classes/persistence/Convertor.class.php:113
+msgid "SSW"
+msgstr "ЮЮЗ"
+
+#: classes/persistence/Convertor.class.php:114
+msgid "SW"
+msgstr "ЮЗ"
+
+#: classes/persistence/Convertor.class.php:115
+msgid "WSW"
+msgstr "ЗЮЗ"
+
+#: classes/persistence/Convertor.class.php:116
+msgid "W"
+msgstr "З"
+
+#: classes/persistence/Convertor.class.php:117
+msgid "WNW"
+msgstr "ЗСЗ"
+
+#: classes/persistence/Convertor.class.php:118
+msgid "NW"
+msgstr "СЗ"
+
+#: classes/persistence/Convertor.class.php:119
+msgid "NNW"
+msgstr "ССЗ"
+
+#: classes/theme/ThemeEntity.class.php:148
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: classes/theme/ThemeEntity.class.php:162
+msgid "Select"
+msgstr "Выбрать"
+
+#: classes/theme/ThemeEntity.class.php:163
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: classes/theme/ThemeSettings.class.php:114
+msgid "Settings reset to default values"
+msgstr "Настройки сброшены в состояние по умолчанию"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:117
+msgid "Title"
+msgstr "Заголовок"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:126
+#: config/admin-options-fields.php:69
+msgid "Template"
+msgstr "Шаблон"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:143
+#: config/admin-options-fields.php:77
+msgid "Show current weather"
+msgstr "Текущий прогноз"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:150
+#: config/admin-options-fields.php:84
+msgid "Show 5 day forecast"
+msgstr "Пятидневный прогноз"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:156
+#: config/admin-options-fields.php:27
+msgid "City Name"
+msgstr "Город"
+
+# You can find you city name on www.openweathermap.com.
+#: classes/widget/WeatherWidgetAbstract.class.php:158
+#: config/admin-options-fields.php:33
+msgid ""
+"You can find you city name on <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+msgstr ""
+"Вы можете найти ваш город на <a href=\"http://www.openweathermap.com/\" "
+"title=\"http://www.openweathermap.com/\" target=\"_blank\">www."
+"openweathermap.com</a>."
+
+#: classes/widget/WeatherWidgetAbstract.class.php:174
+#: config/admin-options-fields.php:45
+msgid "Temperature"
+msgstr "Температура"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:193
+#: config/admin-options-fields.php:53
+msgid "Wind Speed"
+msgstr "Скорость ветра"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:212
+#: config/admin-options-fields.php:61
+msgid "Pressure"
+msgstr "Давление"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:228
+msgid "Enable user options"
+msgstr "Разрешить пользовательскую настройку"
+
+#: classes/widget/WeatherWidgetAbstract.class.php:235
+msgid "Hide description of the weather conditions"
+msgstr "Скрыть описание погодных условий"
+
+#: config/admin-menu.php:5 config/admin-menu.php:6
+msgid "WCP Weather"
+msgstr "WCP Weather"
+
+#: config/admin-menu.php:14 config/admin-menu.php:15
+msgid "Settings"
+msgstr "Настройки"
+
+#: config/admin-options-fields.php:6
+msgid "Location"
+msgstr "Расположение"
+
+#: config/admin-options-fields.php:9
+msgid "Units"
+msgstr "Единицы измерения"
+
+#: config/admin-options-fields.php:13
+msgid "Display Options"
+msgstr "Опции отображения"
+
+#: config/admin-options-fields.php:94
+msgid "General"
+msgstr "Главное"
+
+#: config/admin-options-fields.php:97
+msgid "User Options"
+msgstr "Опции пользователя"
+
+#: config/admin-options-fields.php:100
+msgid "Other"
+msgstr "Другое"
+
+#: config/admin-options-fields.php:106
+msgid "Language"
+msgstr "Язык"
+
+#: config/admin-options-fields.php:115
+msgid "Current Theme"
+msgstr "Текущая тема"
+
+#: config/admin-options-fields.php:124
+msgid "Refresh Time"
+msgstr "Время обновления"
+
+#: config/admin-options-fields.php:131
+msgid "Hide Description of the Weather Conditions"
+msgstr "Скрыть описание погодных условий"
+
+#: config/admin-options-fields.php:138
+msgid "\"No Data\" Message"
+msgstr "Сообщение \"Нет данных\""
+
+#: config/admin-options-fields.php:146
+msgid "Enable \"Google Maps API\""
+msgstr "Отключить \"Google Maps API\""
+
+#: config/admin-options-fields.php:153
+msgid "Enable User Options"
+msgstr "Разрешить пользовательскую настройку"
+
+#: config/admin-options-fields.php:160
+msgid "Expire User Options (days)"
+msgstr "Хранить опции пользователя (дней)"
+
+#: config/admin-options-fields.php:175 templates/user/options/layout.php:12
+msgid "Options"
+msgstr "Опции"
+
+#: config/admin-options-fields.php:180
+msgid "API key"
+msgstr "Ключ API"
+
+# How to get API key you can see here.
+#: config/admin-options-fields.php:185
+msgid ""
+"How to get API key you can see <a href=\"http://openweathermap.org/appid\" "
+"title=\"http://openweathermap.org/appid\" target=\"_blank\">here</a>."
+msgstr ""
+"Как получить ключ API вы можете узнать <a href=\"http://openweathermap.org/"
+"appid\" title=\"http://openweathermap.org/appid\" target=\"_blank\">тут</a>."
+
+#: config/admin-options-fields.php:188
+msgid "Google API key"
+msgstr "Ключ API Google"
+
+#: config/admin-options-fields.php:193
+msgid ""
+"How to get Google API key you can see <a href=\"https://developers.google."
+"com/maps/documentation/javascript/get-api-key\" title=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Как получить ключ API Google вы можете узнать <a href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" title=\"https://"
+"developers.google.com/maps/documentation/javascript/get-api-key\" target="
+"\"_blank\">тут</a>."
+
+#: config/admin-options-fieldset.php:4
+msgid "&deg;C"
+msgstr "&deg;C"
+
+#: config/admin-options-fieldset.php:5
+msgid "&deg;F"
+msgstr "&deg;F"
+
+#: config/admin-options-fieldset.php:8
+msgid "mph"
+msgstr "миль/ч"
+
+#: config/admin-options-fieldset.php:9
+msgid "km/h"
+msgstr "км/ч"
+
+#: config/admin-options-fieldset.php:10
+msgid "m/s"
+msgstr "м/с"
+
+#: config/admin-options-fieldset.php:11
+msgid "Knots"
+msgstr "узел"
+
+#: config/admin-options-fieldset.php:14
+msgid "atm"
+msgstr "атм"
+
+#: config/admin-options-fieldset.php:15
+msgid "bar"
+msgstr "бар"
+
+#: config/admin-options-fieldset.php:16
+msgid "hPa"
+msgstr "гПа"
+
+#: config/admin-options-fieldset.php:17
+msgid "kgf/cm²"
+msgstr "кгс/см²"
+
+#: config/admin-options-fieldset.php:18
+msgid "kgf/m²"
+msgstr "кгс/м²"
+
+#: config/admin-options-fieldset.php:19
+msgid "kPa"
+msgstr "кПа"
+
+#: config/admin-options-fieldset.php:20
+msgid "mbar"
+msgstr "мбар"
+
+#: config/admin-options-fieldset.php:21
+msgid "mmHg"
+msgstr "мм рт. ст."
+
+#: config/admin-options-fieldset.php:22
+msgid "inHg"
+msgstr "д рт.ст."
+
+#: config/admin-options-fieldset.php:23
+msgid "Pa"
+msgstr "Па"
+
+#: config/admin-options-fieldset.php:24
+msgid "psf"
+msgstr "фунт. на кв. фут"
+
+#: config/admin-options-fieldset.php:25
+msgid "psi"
+msgstr "фунт. на кв. дюйм"
+
+#: config/admin-options-fieldset.php:26
+msgid "torr"
+msgstr "торр"
+
+#: config/admin-options-fieldset.php:29
+msgid "Always"
+msgstr "Всегда"
+
+#: config/admin-options-fieldset.php:30
+msgid "0.5h - Not Recommended"
+msgstr "0.5ч - Не рекомендуется"
+
+#: config/admin-options-fieldset.php:31
+msgid "1h - Recommended"
+msgstr "1ч - Рекомендуется"
+
+#: config/admin-options-fieldset.php:32
+msgid "2h"
+msgstr "2ч"
+
+#: config/admin-options-fieldset.php:33
+msgid "3h"
+msgstr "3ч"
+
+#: config/admin-options-fieldset.php:34
+msgid "6h"
+msgstr "6ч"
+
+#: config/admin-options-fieldset.php:35
+msgid "9h"
+msgstr "9ч"
+
+#: config/admin-options-fieldset.php:36
+msgid "12h"
+msgstr "12ч"
+
+#: config/admin-options-fieldset.php:37
+msgid "24h"
+msgstr "24ч"
+
+#: config/admin-options-fieldset.php:70
+msgid "mon"
+msgstr "пн"
+
+#: config/admin-options-fieldset.php:71
+msgid "tue"
+msgstr "вт"
+
+#: config/admin-options-fieldset.php:72
+msgid "wed"
+msgstr "ср"
+
+#: config/admin-options-fieldset.php:73
+msgid "thu"
+msgstr "чт"
+
+#: config/admin-options-fieldset.php:74
+msgid "fri"
+msgstr "пт"
+
+#: config/admin-options-fieldset.php:75
+msgid "sat"
+msgstr "сб"
+
+#: config/admin-options-fieldset.php:76
+msgid "sun"
+msgstr "вс"
+
+#: config/admin-options-fieldset.php:79
+msgid "jan"
+msgstr "янв"
+
+#: config/admin-options-fieldset.php:80
+msgid "feb"
+msgstr "фев"
+
+#: config/admin-options-fieldset.php:81
+msgid "mar"
+msgstr "мар"
+
+#: config/admin-options-fieldset.php:82
+msgid "apr"
+msgstr "апр"
+
+#: config/admin-options-fieldset.php:83
+msgid "may"
+msgstr "май"
+
+#: config/admin-options-fieldset.php:84
+msgid "jun"
+msgstr "июн"
+
+#: config/admin-options-fieldset.php:85
+msgid "jul"
+msgstr "июл"
+
+#: config/admin-options-fieldset.php:86
+msgid "aug"
+msgstr "авг"
+
+#: config/admin-options-fieldset.php:87
+msgid "sep"
+msgstr "сен"
+
+#: config/admin-options-fieldset.php:88
+msgid "oct"
+msgstr "окт"
+
+#: config/admin-options-fieldset.php:89
+msgid "nov"
+msgstr "ноя"
+
+#: config/admin-options-fieldset.php:90
+msgid "dec"
+msgstr "дек"
+
+#: config/admin-options-tabs.php:4
+msgid "Weather"
+msgstr "Погода"
+
+#: config/admin-options-tabs.php:7
+msgid "Plugin"
+msgstr "Плагин"
+
+#: config/admin-options-tabs.php:10
+msgid "API"
+msgstr "API"
+
+#: templates/admin/constructor/layout.php:12
+msgid "WCP OpenWeather Shortcode"
+msgstr "WCP OpenWeather шорткод"
+
+#: templates/admin/constructor/layout.php:27
+msgid "Add"
+msgstr "Добавить"
+
+#: templates/admin/options/fields/lang.php:46
+msgid "Not supported in the current theme"
+msgstr "Не поддерживается в текущей теме"
+
+#: templates/admin/options/layout-headline-links.php:3
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Documentation"
+msgstr "Документация"
+
+#: templates/admin/options/layout-headline-links.php:5
+msgid "Live Demo"
+msgstr "Демо"
+
+#: templates/admin/options/layout-headline-links.php:6
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+#: templates/admin/options/layout-headline-links.php:7
+msgid "Support Form"
+msgstr "Техподдержка"
+
+#: templates/admin/options/layout-headline-links.php:8
+msgid "Help with Translation"
+msgstr "Помощь с переводом"
+
+#: templates/admin/options/layout.php:22
+msgid ""
+"WCP OpenWeather plugin allows you to add various widgets and shortcodes with "
+"current weather or forecast for your city and supports several themes."
+msgstr ""
+"Плагин WCP OpenWeather позволяет использовать различные виджеты и шорткоды с "
+"текущей погодой или прогнозом погоды для Вашего города и поддерживает "
+"несколько тем оформления."
+
+#: templates/admin/options/layout.php:23
+msgid ""
+"If you really like our plugin, please <a class=\"scfp-plugin-headline-rate\" "
+"title=\"Rate Our Plugin\" target=\"blank\" href=\"https://wordpress.org/"
+"support/view/plugin-reviews/wcp-openweather?filter=5#postform\">rate us</a>!"
+msgstr ""
+"Если Вам действительно понравился наш плагин, пожалуйста <a class=\"scfp-"
+"plugin-headline-rate\" title=\"Оцените наш плагин\" target=\"blank\" href="
+"\"https://wordpress.org/support/view/plugin-reviews/wcp-openweather?"
+"filter=5#postform\">оцените нас</a>!"
+
+#: templates/admin/options/layout.php:45
+msgid "Save Changes"
+msgstr "Сохранить"
+
+#: templates/admin/options/layout.php:46 templates/user/options/layout.php:21
+msgid "Reset to Default"
+msgstr "Настройки по умолчанию"
+
+#: templates/user/options/layout.php:20
+msgid "Save & Refresh"
+msgstr "Сохранить и обновить"
+
+# More information about the plugin you can find on the plugin page in the FAQ and Screenshots sections. Live demo you can find on our site.
+#~ msgid ""
+#~ "More information about the plugin you can find on the <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">plugin page</a> in the <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> "
+#~ "and <a href=\"https://wordpress.org/plugins/wcp-openweather/screenshots/"
+#~ "\" target=\"_blank\" title=\"Screenshots\">Screenshots</a> sections. "
+#~ "<strong>Live demo</strong> you can find on <a href=\"http://wpdemo."
+#~ "webcodin.com/weather-forecast/\" target=\"_blank\" title=\"Live Demo"
+#~ "\">our site</a>."
+#~ msgstr ""
+#~ "Больше информации о плагине вы можете найти на <a href=\"https://"
+#~ "wordpress.org/plugins/wcp-openweather/\" target=\"_blank\" title="
+#~ "\"wordpress.org\">странице плагина</a> в <a href=\"https://wordpress.org/"
+#~ "plugins/wcp-openweather/faq/\" target=\"_blank\" title=\"FAQ\">FAQ</a> и "
+#~ "в секции <a href=\"https://wordpress.org/plugins/wcp-openweather/"
+#~ "screenshots/\" target=\"_blank\" title=\"Screenshots\">Скриншоты</a> . "
+#~ "<strong>Живую демонстрацию</strong> вы можете посмотреть на <a href="
+#~ "\"http://wpdemo.webcodin.com/weather-forecast/\" target=\"_blank\" title="
+#~ "\"Live Demo\">нашем сайте</a>."
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "English (United States)"
+#~ msgstr "Английский (Соединенные Штаты)"
+
+#~ msgid "Russian (Russia)"
+#~ msgstr "Русский (Россия)"
+
+#~ msgid "Ukrainian (Ukraine)"
+#~ msgstr "Украинский (Украина)"
+
+#~ msgid "Albanian (Albania)"
+#~ msgstr "Албанский (Албания)"
+
+#~ msgid "French (France)"
+#~ msgstr "Французский (Франция)"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Немецкий (Германия)"
+
+#~ msgid "Partial translation"
+#~ msgstr "Частичный перевод"
+
+#~ msgid "Ooops! Nothing was found!"
+#~ msgstr "Упс! Ничего не найдено!"
+
+#~ msgid "clear"
+#~ msgstr "ясно"
+
+#~ msgid "clouds"
+#~ msgstr "облачно"
+
+#~ msgid "rain"
+#~ msgstr "дождь"
+
+#~ msgid "thunderstorm"
+#~ msgstr "гроза"
+
+#~ msgid "snow"
+#~ msgstr "снег"
+
+#~ msgid "mist"
+#~ msgstr "туман"
+
+#, fuzzy
+#~ msgid "Mar"
+#~ msgstr "бар"
+
+#~ msgid "scattered clouds"
+#~ msgstr "рассеянные облака"
+
+#~ msgid "broken clouds"
+#~ msgstr "разорванные облака"
+
+#~ msgid "shower rain"
+#~ msgstr "ливень"
